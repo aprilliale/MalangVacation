@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="wisata">
+        <item>Balekambang</item>
+        <item>Goa China</item>
+        <item>Segara Anakan</item>
+        <item>Sendan Biru</item>
+        <item>Tiga warna</item>
+    </string-array>
+
+    <string-array name="belanja">
+        <item>Malang Town Square</item>
+        <item>Malang Olympic Garden</item>
+        <item>Pasar Besar</item>
+    </string-array>
+
+    <string-array name="wisata_des">
+        <item>
+            Pantai Balekambang berada di Desa Srigoco, Kecamatan Bantur, sekitar 70 kilometer arah selatan Kota Malang, Jawa Timur. Pantai di Malang ini termasuk landai dan dipenuhi dengan karang laut yang membentang sepanjang 2 km dengan lebar 200 meter ke arah laut. Sewaktu air laut surut tampak ikan hias serta aneka ragam biota laut lainnya berkerumun di atas air.
+        </item>
+        <item>
+            Jika Anda sedang berkunjung ke Pantai Sendang Biru, cobalah mampir sejenak ke Pantai Gua China. Pantai ini terletak di Desa Sitiarjo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang Selatan. Pantai Gua China memiliki kisah dan sejarah yang unik. Seperti namanya, di pantai ini terdapat sebuah gua yang menjadi daya tarik tersendiri.
+        </item>
+        <item>
+            Siapa yang tak terpikat Segara Anakan di Pulau Sempu Malang Jawa Timur? Danau berwarna hijau ini meraup air laut dari tebing berlubang di belakangnya, langsung menghadap Samudera Hindia. Segara Anakan, bagai pantai tanpa lautan. Bentuknya lebih mirip danau karena warna hijau yang dominan, beda dengan air laut yang berwarna biru.
+            Pantai Segara Anakan berlatar tebing tinggi yang membentenginya dengan Samudera Hindia. Satu bagian di tebing itu berlubang karena erosi. Dari situlah air di Segara Anakan berasal. Tebing itu seakan melindungi keindahan tiada tara dari ganasnya Samudera Hindia. Benar-benar pantai di Malang yang belum terjamah penuh keindahan yang eksotis.
+        </item>
+        <item>
+            Pantai Sendang Biru adalah salah satu pantai di Malang yang terletak di 30 Km bagian selatan Malang. Sendang biru berada di kecamatan Sumbermanjing Wetan, Kabupaten Malang. Pantai Sendang Biru berpotensi sebagai obyek wisata yang sangat indah yang bisa dikunjungi.
+        </item>
+        <item>
+            Pantai Goa Cina lokasinya di Trowotratih, Sitiarjo, Sumbermanjing Wetan dan masih berdekatan dengan Pantai Sendang Biru. Jarak yang ditempuh dari Pantai Sendang Biru hanya kurang lebih 6 km.
+        </item>
+    </string-array>
+
+    <string-array name="wisata_det">
+        <item>
+            Pantai ini dijuluki Tanah Lot-nya Jawa karena mirip dengan objek wisata di Bali yang bernama Tanah Lot. Pantai Balekambang cukup menawan dan layak dikunjungi sebagai tempat liburan akhir pekan di Malang. Suasananya sangat asri, pantainya juga bersih dan terawat. Pasir putih sepanjang dua kilometer berpadu dengan ombak yang menggulung sungguh memanjakan mata pengunjung.
+            Pantai Balekambang memiliki semua fasilitas yang diperlukan wisatawan, mulai dari warung makan tradisional, restoran, penjaga pantai, toko suvenir, toilet umum, tempat parkir yang luas, camping ground, kantor informasi, bungalow sederhana, mushola dan pendopo, hingga penginapan. Bahkan kini ada wahana flying fox. Harga tiket masuk lokasi wisata ini adalah Rp 15.000 per orang.
+        </item>
+        <item>          
+            Menurut cerita masyarakat setempat, gua yang berada di bukit pinggir pantai ini digunakan oleh seorang pertapa China untuk bersemedi hingga meninggal. Pesona pantai di Malang ini sungguh menakjubkan. Warna air laut yang jernih dan bersih, dibalut oleh pasir putih yang lembut membuat pantai ini wajib dikunjungi. Pohon-pohon seperti cembirit, ketapang, dan pohon jenis tutup berjajar rapi di area pinggir pantai. Tiket masuk ke Pantai Gua China adalah Rp. 4000,- per orang.
+        </item>
+        <item>
+            Untuk menuju ke Pulau Sempu, pengunjung perlu menempuh perjalanan dari dermaga, dan lanjut jalan kaki. Melelahkan, namun terbayar dengan keindahannya. Untuk menuju ke sana, Anda harus menyambung perjalanan dengan menyewa kapal. Kalau di Palembang sih disebutnya kapal ketek karena bunyi mesinnya yang berbunyi, “etek..ketek..ketek..”
+            Entah kalau di Sendang Biru disebutnya apa, saya juga lupa menanyakannya pada penduduk setempat. Sendang Biru itu dermaga, mungkin seperti Pelabuhan Merak atau Bakaheuni dalam skala yang lebih besar. Kalau mau main air di sini tidak terlalu disarankan.
+            Tapi, satu yang harus diperhatikan, bahkan wajib untuk diperhatikan bila mau menyambangi Pulau Sempu, yaitu fisik yang kuat. Harus makan dahulu, kalau bisa olahraga dahulu. Lebih bagus kalau latihan jalan jauh selama beberapa hari sebelum ke Pulau Sempu.
+        </item>
+        <item>
+            Pantai ini bagi mereka yang ingin menyebrang ke pulau Sempu, pasti harus melewati pantai Sendang Biru terlebih dahulu. Dengan adanya pulau Sempu ini, membuat pantai Sendang Biru memiliki ombak yang tidak terlalu besar layaknya pantai laut selatan lainnya.
+            Di pantai Sendang Biru ini ini juga dikenal sebagai tempat pendaratan dan pelelang ikan di Malang. Dinamakan pantai Sendang Biru karena di pantai ini terdapat sumber mata air yang biasa disebut sebagai sendang, dan berwarna biru. Saat ini, secara resmi pantai Sendang Biru dikelola oleh perusahaan negara milik Forestay.
+            Di pantai ini terdapat beberapa fasilitas penunjang wisata seperti, penginapan, guess house, rumah jaga dan persewaan perahu. Untuk mencapai pantai ini, para pengunjung bisa menggunakan kendaraan pribadi seperti mobil dan motor, juga kendaraan umum. Untuk kendaraan umum bisa diakses menggunakan Mikrolet jurusan Gadang-Turen-Sendang Biru.
+        </item>
+        <item>
+            Pantai Goa Cina ini masih menyimpan keindahan alam yang terjaga kelestariannya. Selain itu, Pantai Goa Cina ini memiliki hamparan pasir pantai berwarna putih yang sangat lembut ketika terinjak oleh kaki kita yang sangat memesona.
+            Tak hanya itu sebab di sekeliling Pantai Goa Cina menyajikan kombinasi jernihnya air laut di Pantai Goa Cina. Di Pantai Goa Cina ini, anda bisa menikmati bagaimana indahnya pemandangan Sunrise.
+        </item>
+    </string-array>
+
+    <string-array name="belanja_des">
+        <item>
+            Malang Town Square (Matos) merupakan salah satu pusat perbelanjaan terlengkap di Kota Malang, Mall dibuka pada tahun 2005 dan sampai sekarang Malang Town Square (Matos) telah tumbuh menjadi pusat perbelanjaan terfavorit warga Kota Malang. Selain sebagai tempat perbelanjaan, Malang Town Square (Matos) juga merupakan tempat wisata, hiburan, dan rekreasi keluarga.
+        </item>
+        <item>
+            Tempat wisata belanja di Malang selanjutnya adalah Mall Olympic Garden. Lokasi tempat belanja ini berdekatan dengan stadion Gajayana Malang. Di mall ini anda akan menemukan berbagai produk fashion seperti kerudung, tas, baju, dan sepatu. Mall ini dibuka mulai pukul 09.00 sampai 23.00. Jika anda ingin berbelanja di tempat ini sebaiknya anda datang pukul 10.00 karena pada jam tersebut semua toko sudah dibuka.
+        </item>
+        <item>
+            Jika anda ingin membeli barang untuk memenuhi kebutuhan bahan anda, maka sebaiknya anda datang ke tempat yang satu ini. Pasar ini menjual 
+berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralatan dapur dan lain sebagainya. Walaupun harga yang ditawarkan cukup mahal, namun anda bisa menawarnya dengan harga yang murah. Pasar ini juga menyediakan tempat makan yang dijamin akan membuat anda puas.
+        </item>
+    </string-array>
+
+    <string-array name="wisata_place">
+        <item>
+            Desa Srigonco, kecamatan Bantur, Kabupaten Malang, Jawa Timur, sekitar 60 kilometer selatan kota Malang.
+        </item>
+        <item>
+            Piazza del Capitolo - 50122 Florence
+        </item>
+        <item>
+            Dusun Tumpak Awu, Desa Sitiarjo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang, Jawa Timur.
+        </item>
+        <item>
+            Segara Anakan, Tambakrejo, Sumbermanjing, Malang, Jawa Timur, Indonesia
+        </item>
+        <item>
+            Tambakrejo, Sumbermanjing Wetan, Sumbermanjing, Malang, Jawa Timur 65176, Indonesia
+        </item>
+    </string-array>
+
+    <array name="places_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+    </array>
+
+</resources>
