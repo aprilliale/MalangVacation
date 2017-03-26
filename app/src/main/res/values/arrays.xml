@@ -14,61 +14,90 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string-array name="wisata">
-        <item>Balekambang</item>
-        <item>Goa China</item>
-        <item>Segara Anakan</item>
-        <item>Sendan Biru</item>
-        <item>Tiga warna</item>
+    <string-array name="angkot">
+        <item>Angkot ABG</item>
+        <item>Angkot ADL</item>
+        <item>Angkot AG</item>
+        <item>Angkot AL</item>
+        <item>Angkot AMG</item>
+        <item>Angkot CKL</item>
+        <item>Angkot GA</item>
+        <item>Angkot GL</item>
+        <item>Angkot GML</item>
+        <item>Angkot LDG</item>
+        <item>Angkot LG</item>
+        <item>Angkot MK</item>
+        <item>Angkot MM</item>
+        <item>Angkot GM</item>
+    </string-array>
+
+    <string-array name="angkot_desc">
+        <item>Arjosari - Borobudur - Gadang</item>
+        <item>Arjosari - Dinoyo - Landungsari</item>
+        <item>Arjosari - Gadang</item>
+        <item>Arjosari - Landungsari</item>
+        <item>Arjosari - Mergosono - Gadang</item>
+        <item>Cemorokandang - Landungsari</item>
+        <item>Gadang - Arjosari</item>
+        <item>Gadang - Landungsari</item>
+        <item>Gadang - Mergan - Landungsari</item>
+        <item>Landungsari - Dinoyo - Gadang</item>
+        <item>Landungsari - Gadang</item>
+        <item>Mulyorejo - Karang Besuki</item>
+        <item>Madyopuro - Mulyorejo</item>
+        <item>Gadang - Madyopuro</item>
+    </string-array>
+
+    <string-array name="angkot_detail">
+        <item>
+            Term Arjosari – Jl. Simp. RP Suroso – Jl. R. Intan – Jl. A. Yani – Jl. Borobudur – Jl. Sukarno Hatta – Jl. Cengkeh – Jl. Kalpataru – Jl. Melati – Jl. Mawar – Jl. Saranagan – Jl. Tawangmangu – Jl. Kaliurang – Jl. WR. Supratman – Jl. P. Sudirman – Jl. Pattimuara – JL. Trunojoyo – Jl. Jembatan Pahlawan – Jl. Gatot Subroto – Jl. L. Martadinata – Jl. Kol Sugiyono – Term Gadang
+        </item>
+        <item>
+            Terminal Arjosari - Jl. Simpang R. Panji Suroso - Jl. Raden Intan - Jl. Jend. A. Yani - Jl. Letjen S. Parman – Jl. Letjen Sutoyo – Jl. W. R. Supratman – Jl. Panglima Sudirman – Jl. Patimura – Jl. Trunojoyo- Jl. Kertanegara – Jl. Kahuripan –  Jl Semeru – Jl. Ijen – Jl. Bandung – Jl. Terusan Bogor – Jl. Mayjen Panjahitan – Jl. Mayjen Haryono – Jl. Tlogomas – Terminal Landung Sari
+        </item>
+        <item>
+            Terminal Arjosari – Jl. Simpang R. Panji Suroso – Jl. Raden Intan – Jl. Jend A. Yani – Jl. Letjen S. Parma – Jl. Letjen Sutuyo – Jl. Jagung Suprapto – Jl. Basuki Rahmat – Merdeka Utara – Jl. Merdeka Timur – Jl. Sukarjowiryor   Panoto – Jl. Pasar Besar – Jl. Sersan Harun – Jl. Prof Moh yamin – Jl. Sartono SH – Jl. Kol Sugiono – Terminal Gadang
+        </item>
+        <item>
+            Terminal Arjosari – Jl. R. Panji Suroso – Jl. Laksda Adi Sucipto – Jl. Tenaga – Jl. Karya Timur – Jl. Mahakam – Jl. W. R. Supratman – Jl. Panglima Sudirman – Jl. Patimura – Jl. Trunojoyo – Jl. Kertanegara – Jl. Tugu – Jl. Kahuripan – Jl. Semeru – Jl. Ijen – Jl. Retawu – Jl. Bondowoso – Jl. Jombang – Jl. Suroboyo – Jl. Jakarta – Jl. Bogor –  Jl. Veteran – Jl. Sumbersari – Terminal Landung Sari
+        </item>
+        <item>
+            Term Arjosari – Jl. Simp SP. Suroso – Jl. S. Priyo Sudarmo – Jl. RT Suryo – Jl. Hamid Rusdi – Jl. Kesatriaan Terusan – Jl. Urip Sumoharjo – Jl. P. Sudirman – Jl. Ir Juanda – Jl. Kebalon – Jl. Kol Sugiyono – Term Gadang
+        </item>
+        <item>
+            APK Cemoro Kandang – Jl. Raya Cemoro Kandang – Jl. Raya Madyopuro – Jl. Sekarpuro – Jl. Komplek UNIDA – JL. D. Sentani – Jl. D. Tigi – Jl. D. Kerinci – Jl. D. Tondano – Jl. Limboto – Jl. Raya Sawojajar – Jl. Ranu Grati – Jl. M. Wiyono – Jl. Kesatrian – Jl. Hamid Rusdi – Jl. RT. Suryo – Jl. S. Priyo Sudarmo – Jl. Ciliwung – Jl. L. Sutoyo – Jl. Kedawung – Jl. Kalpataru – Jl. Cengkeh – Jl. Sukarno Hatta – Jl. Simp Panggung – Jl. Vinolia – Jl. Keramik – Jl. MT. Haryono - Jl. Tlogomas – Term Landungsari
+        </item>
+        <item>
+            Terminal Gadang – Jl. Satsuit Tubun – Jl. S Supriyadi – Jl. Arif Margono – Jl. Ade Irma Suryani –Jl. KH Wahid Hasyim –Jl. Kauman – Jl. Hasyim Asyhari – Jl. AR Hakim  - Jl. Merdeka Utara – Jl. S Wiryop
+ranoto – Jl. Mojopahit – Jl. Tugu – Jl. Untung Suropati – Jl. Pajajaran – Jl. Truno Joyo – Jl. Cokroaminoto – Jl. Dr Cipto – Jl. Pang Sudirman – Jl. WR Supratman – Jl. Letjend Sutoyo – Jl. Letjend S. Parman – Jl. Jend Ayani – Jl. R Intan – Terminal Arjosari
+        </item>
+        <item>
+            Term. Gadang –Jl. S Tubun –Jl. S. Supriadi –Jl. Janti –Sonokeling. –Jl. Niaga –Jl. Susanto –Jl. Halmahera –Jl. Sampo –Jl. Kalimantan –Jl. Sulawesi –Jl. Yulius Usman –Jl. Arief Margono –Jl. KH. Hasyim Asyari –Jl. Kawi –Jl. Ijen –Jl. Retawu –Jl. Gede –Jl. Jakarta –Jl. Garut –Jl. Bandung –Jl. Veteran –Jl. Sumbersari –Jl. Gajayana –Jl. MT> Hartono –Jl. Raya Tlogomas –Term Landungsari.
+        </item>
+        <item>
+            Term Gadang – Jl. Satsuit Tubun – Jl. S. Supriyadi – Jl. Janti – Jl. Sono Keling – Jl. Niaga – Jl. Susanto – Jl. Halmahera – Jl. Tanimbar – Jl. Sulawesi – Jl. Nusakambangan – Jl. Arief Margono – Jl. S. Supriyadi – Jl. Rajawali – Term Mergan Lori – Jl. Raya Langsep – Jl. Galunggunbg – Jl. Bukit Barisan – Jl. Tamboro – Jl. Tidar – Jl. Simpang Candi  - Jl. Candi – Jl. Ters. Sigura-gura – Jl. Belakang IAIN – Jl. Mertoijoyo Selatan – Jl. Mertojoyo – Jl. MT Haryono Gg XII- Jl. Raya Tlogomas – Term Landungsari
+        </item>
+        <item>
+            Terminal Landung Sari – Jl. Mayjen MT. Haryono – Jl. Mayjen Panjahitan – Jl. Brigjen S. Riyadi – Jl. Jend Basuki Rahmat – Jl. Merdeka Barat – Jl. Kauman – Jl. Syarif al Qodri – Jl. Ade Irma Suryani – Jl. Pasar Besar – Jl. Sersan Harun – Jl. Prof. Moh. Yamin – Jl. Sartono SH – Jl. Kol. Sugiono – Terminal Gadang
+        </item>
+        <item>
+            Terminal Landungsari – Jl. Tlogo Mas – Jl. Mayjend Haryono Jl. Sumber Sari – Jl. Bendungan Sutami – Jl. Surabaya - Jl. Bondowoso – Jl. Gading – Jl. Wilis – Jl. Panderman – Jl. AR Hakim – Jl. Merdeka Utara – Jl. Merdeka Selatan – Jl. Wiryopranoto – Jl. Sultan  Syahrir – Jl. Kyai Tamin – Jl. Sartono SH – Jl. Peltu Sujono – Jl. Susanto – Jl. Niaga – Jl. Sonokeling – Jl. Janti – Jl. S. Supriyadi – Jl. Satsuit Tubun – Terminal Gadang
+        </item>
+        <item>
+            Term Madyopuro – Jl. Kiageng Gribik – Jl. Muharto – Jl. Z. Zakse – Jl. Pasar Besar – Jl. Zaenal Arifin – Jl. A Munandar – Jl. MGR Sugriwiryopranoto – Jl. Merdeka Timur – Jl. Merdeka Selatan – Jl. Kauman – Jl. KH Hasyim Asyhari – Jl. Kawi – Jl. Ijen – Jl. Pahlawan Trib – Jl. Surabaya – Jl. B. Sutami – Jl. Kleseman – APK Karang Besuki
+        </item>
+        <item>
+            Term Mulyorejo – Jl. Raya Bandulan – Jl. Jupri – Jl. Raya Langsep – Jl. Raya Dieng – Jl. Kawi Atas – Jl. Kawi – Jl. A.R. Hakim – Jl. Merdeka Utara – Jl. MGR. Sugriwiryopranoto – Jl. Mojopahit – Jl. Tugu – Jl. Kertanegara – Jl. Trunojoyo – Jl. Pattimura – Jl. Urip Sumoharjo – Jl. M. Wiyono – Jl. Ranu Grati – Jl. Danau Toba – Jl. Ki Ageng Gribig – Term Madyopuro
+        </item>
+        <item>
+            Term. Gadang – Jl. Kol. Sugiono . – Jl. Susanto – Jl. Irian Jaya – Jl. Tanimbar. – Jl. Sulaesi. – Jl. Yulius Usman . – Jl. Syarief Al Qodri – Jl. A. I Suryani – Jl. B. Katamso – Jl. Ir Rais – Jl. Jupri – Jl. Bandulan – Jl. Raya Mulyrejo – Sub term Mulyorejo.
+        </item>
     </string-array>
 
     <string-array name="belanja">
         <item>Malang Town Square</item>
         <item>Malang Olympic Garden</item>
         <item>Pasar Besar</item>
-    </string-array>
-
-    <string-array name="wisata_des">
-        <item>
-            Pantai Balekambang berada di Desa Srigoco, Kecamatan Bantur, sekitar 70 kilometer arah selatan Kota Malang, Jawa Timur. Pantai di Malang ini termasuk landai dan dipenuhi dengan karang laut yang membentang sepanjang 2 km dengan lebar 200 meter ke arah laut. Sewaktu air laut surut tampak ikan hias serta aneka ragam biota laut lainnya berkerumun di atas air.
-        </item>
-        <item>
-            Jika Anda sedang berkunjung ke Pantai Sendang Biru, cobalah mampir sejenak ke Pantai Gua China. Pantai ini terletak di Desa Sitiarjo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang Selatan. Pantai Gua China memiliki kisah dan sejarah yang unik. Seperti namanya, di pantai ini terdapat sebuah gua yang menjadi daya tarik tersendiri.
-        </item>
-        <item>
-            Siapa yang tak terpikat Segara Anakan di Pulau Sempu Malang Jawa Timur? Danau berwarna hijau ini meraup air laut dari tebing berlubang di belakangnya, langsung menghadap Samudera Hindia. Segara Anakan, bagai pantai tanpa lautan. Bentuknya lebih mirip danau karena warna hijau yang dominan, beda dengan air laut yang berwarna biru.
-            Pantai Segara Anakan berlatar tebing tinggi yang membentenginya dengan Samudera Hindia. Satu bagian di tebing itu berlubang karena erosi. Dari situlah air di Segara Anakan berasal. Tebing itu seakan melindungi keindahan tiada tara dari ganasnya Samudera Hindia. Benar-benar pantai di Malang yang belum terjamah penuh keindahan yang eksotis.
-        </item>
-        <item>
-            Pantai Sendang Biru adalah salah satu pantai di Malang yang terletak di 30 Km bagian selatan Malang. Sendang biru berada di kecamatan Sumbermanjing Wetan, Kabupaten Malang. Pantai Sendang Biru berpotensi sebagai obyek wisata yang sangat indah yang bisa dikunjungi.
-        </item>
-        <item>
-            Pantai Goa Cina lokasinya di Trowotratih, Sitiarjo, Sumbermanjing Wetan dan masih berdekatan dengan Pantai Sendang Biru. Jarak yang ditempuh dari Pantai Sendang Biru hanya kurang lebih 6 km.
-        </item>
-    </string-array>
-
-    <string-array name="wisata_det">
-        <item>
-            Pantai ini dijuluki Tanah Lot-nya Jawa karena mirip dengan objek wisata di Bali yang bernama Tanah Lot. Pantai Balekambang cukup menawan dan layak dikunjungi sebagai tempat liburan akhir pekan di Malang. Suasananya sangat asri, pantainya juga bersih dan terawat. Pasir putih sepanjang dua kilometer berpadu dengan ombak yang menggulung sungguh memanjakan mata pengunjung.
-            Pantai Balekambang memiliki semua fasilitas yang diperlukan wisatawan, mulai dari warung makan tradisional, restoran, penjaga pantai, toko suvenir, toilet umum, tempat parkir yang luas, camping ground, kantor informasi, bungalow sederhana, mushola dan pendopo, hingga penginapan. Bahkan kini ada wahana flying fox. Harga tiket masuk lokasi wisata ini adalah Rp 15.000 per orang.
-        </item>
-        <item>          
-            Menurut cerita masyarakat setempat, gua yang berada di bukit pinggir pantai ini digunakan oleh seorang pertapa China untuk bersemedi hingga meninggal. Pesona pantai di Malang ini sungguh menakjubkan. Warna air laut yang jernih dan bersih, dibalut oleh pasir putih yang lembut membuat pantai ini wajib dikunjungi. Pohon-pohon seperti cembirit, ketapang, dan pohon jenis tutup berjajar rapi di area pinggir pantai. Tiket masuk ke Pantai Gua China adalah Rp. 4000,- per orang.
-        </item>
-        <item>
-            Untuk menuju ke Pulau Sempu, pengunjung perlu menempuh perjalanan dari dermaga, dan lanjut jalan kaki. Melelahkan, namun terbayar dengan keindahannya. Untuk menuju ke sana, Anda harus menyambung perjalanan dengan menyewa kapal. Kalau di Palembang sih disebutnya kapal ketek karena bunyi mesinnya yang berbunyi, “etek..ketek..ketek..”
-            Entah kalau di Sendang Biru disebutnya apa, saya juga lupa menanyakannya pada penduduk setempat. Sendang Biru itu dermaga, mungkin seperti Pelabuhan Merak atau Bakaheuni dalam skala yang lebih besar. Kalau mau main air di sini tidak terlalu disarankan.
-            Tapi, satu yang harus diperhatikan, bahkan wajib untuk diperhatikan bila mau menyambangi Pulau Sempu, yaitu fisik yang kuat. Harus makan dahulu, kalau bisa olahraga dahulu. Lebih bagus kalau latihan jalan jauh selama beberapa hari sebelum ke Pulau Sempu.
-        </item>
-        <item>
-            Pantai ini bagi mereka yang ingin menyebrang ke pulau Sempu, pasti harus melewati pantai Sendang Biru terlebih dahulu. Dengan adanya pulau Sempu ini, membuat pantai Sendang Biru memiliki ombak yang tidak terlalu besar layaknya pantai laut selatan lainnya.
-            Di pantai Sendang Biru ini ini juga dikenal sebagai tempat pendaratan dan pelelang ikan di Malang. Dinamakan pantai Sendang Biru karena di pantai ini terdapat sumber mata air yang biasa disebut sebagai sendang, dan berwarna biru. Saat ini, secara resmi pantai Sendang Biru dikelola oleh perusahaan negara milik Forestay.
-            Di pantai ini terdapat beberapa fasilitas penunjang wisata seperti, penginapan, guess house, rumah jaga dan persewaan perahu. Untuk mencapai pantai ini, para pengunjung bisa menggunakan kendaraan pribadi seperti mobil dan motor, juga kendaraan umum. Untuk kendaraan umum bisa diakses menggunakan Mikrolet jurusan Gadang-Turen-Sendang Biru.
-        </item>
-        <item>
-            Pantai Goa Cina ini masih menyimpan keindahan alam yang terjaga kelestariannya. Selain itu, Pantai Goa Cina ini memiliki hamparan pasir pantai berwarna putih yang sangat lembut ketika terinjak oleh kaki kita yang sangat memesona.
-            Tak hanya itu sebab di sekeliling Pantai Goa Cina menyajikan kombinasi jernihnya air laut di Pantai Goa Cina. Di Pantai Goa Cina ini, anda bisa menikmati bagaimana indahnya pemandangan Sunrise.
-        </item>
     </string-array>
 
     <string-array name="belanja_des">
@@ -84,23 +113,6 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
         </item>
     </string-array>
 
-    <string-array name="wisata_place">
-        <item>
-            Desa Srigonco, kecamatan Bantur, Kabupaten Malang, Jawa Timur, sekitar 60 kilometer selatan kota Malang.
-        </item>
-        <item>
-            Piazza del Capitolo - 50122 Florence
-        </item>
-        <item>
-            Dusun Tumpak Awu, Desa Sitiarjo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang, Jawa Timur.
-        </item>
-        <item>
-            Segara Anakan, Tambakrejo, Sumbermanjing, Malang, Jawa Timur, Indonesia
-        </item>
-        <item>
-            Tambakrejo, Sumbermanjing Wetan, Sumbermanjing, Malang, Jawa Timur 65176, Indonesia
-        </item>
-    </string-array>
 
     <array name="gambar">
         <item>@drawable/a</item>
