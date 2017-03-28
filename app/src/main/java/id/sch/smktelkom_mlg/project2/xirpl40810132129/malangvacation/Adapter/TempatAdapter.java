@@ -29,7 +29,7 @@ public class TempatAdapter extends RecyclerView.Adapter<TempatAdapter.ViewHolder
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_list, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_relative, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
@@ -37,7 +37,7 @@ public class TempatAdapter extends RecyclerView.Adapter<TempatAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Tempat tempat = tempatList.get(position);
-        holder.tvJudul.setText(tempat.judl);
+        holder.tvJudul.setText(tempat.judul);
         holder.tvDeskripsi.setText(tempat.deskripsi);
         holder.ivFoto.setImageURI(Uri.parse(tempat.foto));
     }
