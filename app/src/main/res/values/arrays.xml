@@ -153,7 +153,7 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
     </array>
 
     <array name="gambar_wisata">
-        <item>@drawable/Balekambang</item>
+        <item>@drawable/balekambang</item>
         <item>@drawable/goachina</item>
     </array>
 
