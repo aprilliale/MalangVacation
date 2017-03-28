@@ -14,19 +14,28 @@ import id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.Adapter.Foo
 import id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.model.Food;
 
 
-public class ListFoodActivity extends AppCompatActivity {
-    ArrayList<Food> mList = new ArrayList<>();
-    FoodAdapter mAdapter;
+public class ListFoodActivity extends AppCompatActivity implements FoodAdapter.IFoodAdapter {
+
+    public static final String FOOD = "food";
+
+    ArrayList<Food> mListFood = new ArrayList<>();
+    boolean isFiltered;
+    ArrayList<Integer> mListMapFIlter = new ArrayList<>();
+    ArrayList<Food> mListAll = new ArrayList<>();
+    String mQuery;
+    FoodAdapter mAdapterFood;
+    int ItemPos;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_food);
         setTitle("Food List");
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerviewfood);
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerFood);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new FoodAdapter(this, mList);
-        recyclerView.setAdapter(mAdapter);
+        mAdapterFood = new FoodAdapter(this, mListFood);
+        recyclerView.setAdapter(mAdapterFood);
 
         fileData();
     }
@@ -51,5 +60,10 @@ public class ListFoodActivity extends AppCompatActivity {
             mList.add(new Food(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void doClick(int pos) {
+
     }
 }

@@ -49,7 +49,7 @@ public class List extends AppCompatActivity implements TempatAdapter.ITempatAdap
         String[] arJudul = resources.getStringArray(R.array.belanja);
         String[] arDeskripsi = resources.getStringArray(R.array.belanja_des);
 
-        TypedArray a = resources.obtainTypedArray(R.array.gambar);
+        TypedArray a = resources.obtainTypedArray(R.array.gambar_tempat);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
