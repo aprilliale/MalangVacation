@@ -155,6 +155,8 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
     <array name="gambar_wisata">
         <item>@drawable/balekambang</item>
         <item>@drawable/goachina</item>
+        <item>@drawable/g</item>
+
     </array>
 
     <array name="gambar_food">
