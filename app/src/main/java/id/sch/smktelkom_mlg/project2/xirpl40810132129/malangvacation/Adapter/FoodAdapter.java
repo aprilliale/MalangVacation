@@ -20,11 +20,11 @@ import id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.model.Food;
 
 public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
     ArrayList<Food> foodList;
-    FoodAdapter.IFoodAdapter mIFoodAdapter;
+    IFoodAdapter mIFoodAdapter;
 
     public FoodAdapter(Context context, ArrayList<Food> foodList) {
         this.foodList = foodList;
-        mIFoodAdapter = (FoodAdapter.IFoodAdapter) context;
+        mIFoodAdapter = (IFoodAdapter) context;
     }
 
     @Override
