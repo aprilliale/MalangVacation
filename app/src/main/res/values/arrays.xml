@@ -14,6 +14,12 @@
   ~ limitations under the License.
   -->
 <resources>
+    <string-array name="foody">
+        <item>Sempol</item>
+        <item>Strudel</item>
+        <item>Cwie Mie</item>
+    </string-array>
+
     <string-array name="wisata">
         <item>Balekambang</item>
         <item>Pantai Goa China</item>
@@ -109,14 +115,52 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
         </item>
     </string-array>
 
+    <string-array name="foody_desc">
+        <item>
+            Sempol adalah jajanan khas kota malang,asalnya dari gondang legi,malang selatan.
+        </item>
+        <item>
+            Kue berlapis, yang terbuat dari pastry dan di isi berbagai buah-buahan.
+            Kue ini adalah makanan populer di jaman Hasburg Empire (1278 – 1780) di Austria
+        </item>
+        <item>
+            Mie ayam asal kota Malang Jawa Timur.
+        </item>
+    </string-array>
 
-    <array name="gambar">
-        <item>@drawable/a</item>
-        <item>@drawable/b</item>
-        <item>@drawable/c</item>
+    <string-array name="foody_detail">
+        <item>
+            Sempol disajikan dengan menggunakan tusuk sate atau stik bambu yang panjang banget.
+            Apa guna stik atau tusuk sate ini? gunanya adalah agar sempol menarik perhatian dan agar mudah waktu menggorengnya.
+            Sempol ini dimasak dengan digoreng,sebelum digoreng sempol ini dikukus terlebih dahulu.
+            Dan tekstur Sempol ini empuk,garing,crunchy dan dibalut dengan telur.
+        </item>
+        <item>
+            disebut strudel khas Malang, karena Malang juga terkenal sebagai penghasil apel berkualitas.
+            Strudel yg asli Austria inipun dimodifikasi disesuaikan dengan taste lokal melalui chef profesional.
+            Hingga jadilah beberapa varian strudel khas Malang yang dijual di gerai pertama Malang Strudel di Jl Ardimulyo no 14 Singosari, Malang ini.
+        </item>
+        <item>
+            Mi ini disajikan dengan ayam yang dicincang halus dan daun sawi hijau yang biasanya melengkapi mi ini diganti dengan daun selada.
+            Jangan lupa untuk menyertakan pangsit sebagai pelengkapnya.
+        </item>
+    </string-array>
+
+    <array name="gambar_tempat">
+        <item>@drawable/matos</item>
+        <item>@drawable/mog</item>
+        <item>@drawable/pasar_besar</item>
+    </array>
+
+    <array name="gambar_wisata">
+        <item>@drawable/balekambang</item>
+        <item>@drawable/goachina</item>
+        <item>@drawable/g</item>
+
+    </array>
+
+    <array name="gambar_food">
         <item>@drawable/d</item>
-        <item>@drawable/e</item>
-        <item>@drawable/f</item>
         <item>@drawable/g</item>
         <item>@drawable/h</item>
     </array>

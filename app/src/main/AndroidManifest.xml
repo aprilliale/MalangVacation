@@ -27,11 +27,7 @@
         <activity android:name=".List" />
         <activity android:name=".ListWisataActivity" />
         <activity android:name=".ListFoodActivity" />
-        <activity android:name=".about" />
-        <activity
-            android:name=".about_us"
-            android:label="@string/title_activity_about_us"
-            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".about"></activity>
     </application>
 
 </manifest>
