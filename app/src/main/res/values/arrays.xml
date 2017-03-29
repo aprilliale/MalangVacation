@@ -166,4 +166,12 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
         <item>@drawable/cwiemie1</item>
     </array>
 
+    <array name="gambar_home">
+        <item>@drawable/button1</item>
+        <item>@drawable/button2</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button4</item>
+        <item>@drawable/button5</item>
+    </array>
+
 </resources>

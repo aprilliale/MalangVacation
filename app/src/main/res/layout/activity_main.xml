@@ -6,11 +6,8 @@
     android:layout_height="wrap_content"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.MainActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <ViewFlipper
+            android:id="@+id/viewFlipper"
             android:layout_width="fill_parent"
             android:layout_height="200dp"
             android:layout_marginTop="0dp"
@@ -50,30 +47,18 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="0px"
                 android:scaleType="centerCrop"
-                android:src="@drawable/strudel" />
+                android:src="@drawable/strudel1" />
         </ViewFlipper>
 
 
-        <Button
-            android:id="@+id/buttonAngkot"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerHome"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_above="@+id/buttonInfo"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="24dp"
-            android:background="#FFC107"
-            android:text="Angkot Route" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewFlipper"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:scrollbars="vertical" />
 
-        <Button
-            android:id="@+id/buttonInfo"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="62dp"
-            android:background="#FFC107"
-            android:text="Open Maps" />
-    </ScrollView>
 </RelativeLayout>
