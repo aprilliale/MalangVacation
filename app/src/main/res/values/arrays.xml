@@ -149,7 +149,7 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
     <array name="gambar_tempat">
         <item>@drawable/matos</item>
         <item>@drawable/mog</item>
-        <item>@drawable/pasar_besar</item>
+        <item>@drawable/pasarbesar</item>
     </array>
 
     <array name="gambar_wisata">
