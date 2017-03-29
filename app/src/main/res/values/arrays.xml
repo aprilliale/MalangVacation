@@ -155,14 +155,15 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
     <array name="gambar_wisata">
         <item>@drawable/balekambang</item>
         <item>@drawable/goachina</item>
-        <item>@drawable/g</item>
-
+        <item>@drawable/segara_anakan1</item>
+        <item>@drawable/sendang_biru1</item>
+        <item>@drawable/tiga_warna1</item>
     </array>
 
     <array name="gambar_food">
-        <item>@drawable/d</item>
-        <item>@drawable/g</item>
-        <item>@drawable/h</item>
+        <item>@drawable/sempol1</item>
+        <item>@drawable/strudel1</item>
+        <item>@drawable/cwiemie1</item>
     </array>
 
 </resources>
