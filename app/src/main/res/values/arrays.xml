@@ -20,6 +20,14 @@
         <item>Cwie Mie</item>
     </string-array>
 
+    <string-array name="homee">
+        <item>Maps</item>
+        <item>Mall</item>
+        <item>Food</item>
+        <item>Cari</item>
+        <item>About</item>
+    </string-array>
+
     <string-array name="wisata">
         <item>Balekambang</item>
         <item>Pantai Goa China</item>

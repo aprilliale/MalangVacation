@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.R;
 import id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.model.Home;
 
 /**
