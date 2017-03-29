@@ -6,59 +6,11 @@
     android:layout_height="wrap_content"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.MainActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ViewFlipper
-            android:layout_width="fill_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="0dp"
-            android:autoStart="true"
-            android:flipInterval="4000">
-
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_margin="0px"
-                android:scaleType="centerCrop"
-                android:src="@drawable/balekambang" />
-
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_margin="0px"
-                android:scaleType="centerCrop"
-                android:src="@drawable/alun2" />
-
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_margin="0px"
-                android:scaleType="centerCrop"
-                android:src="@drawable/matos" />
-
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_margin="0px"
-                android:scaleType="centerCrop"
-                android:src="@drawable/goachina" />
-
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_margin="0px"
-                android:scaleType="centerCrop"
-                android:src="@drawable/strudel" />
-        </ViewFlipper>
-
-
         <Button
             android:id="@+id/buttonAngkot"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_above="@+id/buttonInfo"
+
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="24dp"
@@ -69,11 +21,21 @@
             android:id="@+id/buttonInfo"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
+
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="62dp"
+            android:layout_below="@+id/buttonAngkot"
             android:background="#FFC107"
             android:text="Open Maps" />
-    </ScrollView>
+
+        <Button
+            android:id="@+id/buttonkontol"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonInfo"
+            android:layout_marginTop="72dp"
+            android:text="COOOK" />
+
 </RelativeLayout>

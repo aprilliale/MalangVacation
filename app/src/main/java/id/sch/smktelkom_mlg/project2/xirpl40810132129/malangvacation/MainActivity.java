@@ -27,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        findViewById(R.id.buttonkontol).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ListWisataActivity.class));
+
+            }
+
+        });
 
     }
 }
