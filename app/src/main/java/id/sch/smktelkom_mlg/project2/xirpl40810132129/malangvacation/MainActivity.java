@@ -96,8 +96,6 @@ public class MainActivity extends AppCompatActivity implements HomeAdapter.IHome
         Intent intent = new Intent(MainActivity.this, ListWisataActivity.class);
         startActivity(intent);
 
-        Intent intent = new Intent(MainActivity.this, List.class);
-        startActivity(intent);
     }
 
     private void openFood() {
