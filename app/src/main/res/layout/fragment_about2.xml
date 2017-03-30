@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.about2">
+    tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.aboutpage2">
 
     <!-- TODO: Update blank fragment layout -->
 
