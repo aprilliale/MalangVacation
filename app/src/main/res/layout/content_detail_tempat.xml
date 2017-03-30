@@ -31,19 +31,6 @@
             android:layout_height="wrap_content"
             tools:text="deskripsi" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="16dp"
-            android:text="Detail"
-            android:textColor="?attr/colorAccent" />
-
-        <TextView
-            android:id="@+id/lokasitempat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:text="lokasi" />
-
+        
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
