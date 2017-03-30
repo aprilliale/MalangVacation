@@ -77,7 +77,8 @@ public class MainActivity extends AppCompatActivity implements HomeAdapter.IHome
     }
 
     private void openVacation() {
-
+        Intent intent = new Intent(MainActivity.this, List.class);
+        startActivity(intent);
     }
 
     private void openFood() {
