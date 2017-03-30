@@ -27,4 +27,16 @@ public class DetailTempatActivity extends AppCompatActivity {
 
 
     }
+
+    //onbackpressed
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left_fast, R.anim.slide_out_right_fast);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }

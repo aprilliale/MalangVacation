@@ -26,4 +26,16 @@ public class DetailWisataActivity extends AppCompatActivity {
         TextView tvDetail = (TextView) findViewById(R.id.lokasiwisata);
         tvDetail.setText(wisata.detail);
     }
+
+    //onbackpressed
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_right_fast, R.anim.slide_out_left_fast);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }
