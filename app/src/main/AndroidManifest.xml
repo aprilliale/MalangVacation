@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
         </activity>
@@ -24,7 +24,7 @@
         <activity android:name=".ListFoodActivity" />
         <activity android:name=".DetailFoodActivity" />
         <activity android:name=".DetailTempatActivity" />
-        
+        <activity android:name=".DetailWisataActivity" />
         <activity
             android:name=".aboutfix"
             android:label="@string/title_activity_aboutfix"
