@@ -6,9 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-import id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.Adapter.HomeAdapter;
 
-public class MainActivity extends AppCompatActivity implements HomeAdapter.IHomeAdapter {
+public class MainActivity extends AppCompatActivity {
 
     ImageButton maps, aboutus, vacation, food, search;
 
@@ -86,8 +85,5 @@ public class MainActivity extends AppCompatActivity implements HomeAdapter.IHome
         startActivity(intent);
     }
 
-    @Override
-    public void doClick(int pos) {
 
-    }
 }
