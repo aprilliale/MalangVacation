@@ -125,7 +125,7 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
 
     <string-array name="foody_desc">
         <item>
-            Sempol adalah jajanan khas kota malang,asalnya dari gondang legi,malang selatan.
+            Sempol adalah jajanan khas kota malang. Asalnya dari Gondang Legi, Malang Selatan.
         </item>
         <item>
             Kue berlapis, yang terbuat dari pastry dan di isi berbagai buah-buahan.
@@ -174,12 +174,5 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
         <item>@drawable/cwiemie1</item>
     </array>
 
-    <array name="gambar_home">
-        <item>@drawable/button1</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button5</item>
-    </array>
 
 </resources>

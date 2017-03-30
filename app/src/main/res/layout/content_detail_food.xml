@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.DetailActivity"
-    tools:showIn="@layout/activity_detail">
+    tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.DetailFoodActivity"
+    tools:showIn="@layout/activity_detail_food">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,19 +14,20 @@
         android:orientation="vertical"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingTop="16dp">
+        android:paddingTop="16dp"
+
+        >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:text="Description"
-            android:textColor="?attr/colorAccent"
-
-            />
+            android:textColor="?attr/colorAccent" />
 
         <TextView
-            android:id="@+id/place_detail"
-            android:layout_width="match_parent"
+            android:id="@+id/deskripsifood"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="deskripsi" />
 
@@ -39,13 +40,10 @@
             android:textColor="?attr/colorAccent" />
 
         <TextView
-            android:id="@+id/place_location"
-            android:layout_width="match_parent"
+            android:id="@+id/lokasifood"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="lokasi"
-
-            />
-
+            tools:text="lokasi" />
 
     </LinearLayout>
 
