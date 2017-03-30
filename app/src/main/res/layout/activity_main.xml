@@ -17,11 +17,11 @@
             android:layout_width="fill_parent"
             android:layout_height="200dp"
             android:layout_marginTop="0dp"
-            android:autoStart="true"
             android:animateFirstView="true"
+            android:autoStart="true"
+            android:flipInterval="4000"
             android:inAnimation="@anim/slide_in_right"
-            android:outAnimation="@anim/slide_out_left"
-            android:flipInterval="4000">
+            android:outAnimation="@anim/slide_out_left">
 
             <ImageView
                 android:layout_width="fill_parent"
@@ -68,23 +68,23 @@
             android:layout_margin="10dp"
             android:src="@drawable/food" />
         <ImageButton
-            android:id="@+id/vacation"
+            android:id="@+id/places"
             android:layout_width="175dp"
             android:layout_height="175dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/viewFlipper"
             android:layout_margin="10dp"
-            android:src="@drawable/vacation" />
+            android:src="@drawable/places" />
         <ImageButton
-            android:id="@+id/search"
+            android:id="@+id/vacation"
             android:layout_width="175dp"
             android:layout_height="175dp"
             android:layout_alignEnd="@+id/food"
             android:layout_alignRight="@+id/food"
             android:layout_below="@+id/food"
             android:layout_margin="10dp"
-            android:src="@drawable/search" />
+            android:src="@drawable/vacation" />
         <ImageButton
             android:id="@+id/aboutus"
             android:layout_width="175dp"

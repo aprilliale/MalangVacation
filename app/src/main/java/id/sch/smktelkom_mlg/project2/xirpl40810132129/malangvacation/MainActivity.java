@@ -10,7 +10,7 @@ import id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.Adapter.Hom
 
 public class MainActivity extends AppCompatActivity implements HomeAdapter.IHomeAdapter {
 
-    ImageButton maps, aboutus, vacation, food, search;
+    ImageButton maps, aboutus, vacation, food, places;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements HomeAdapter.IHome
         aboutus = (ImageButton) findViewById(R.id.aboutus);
         vacation = (ImageButton) findViewById(R.id.vacation);
         food = (ImageButton) findViewById(R.id.food);
-        search = (ImageButton) findViewById(R.id.search);
+        places = (ImageButton) findViewById(R.id.places);
 
         findViewById(R.id.food).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,10 +44,10 @@ public class MainActivity extends AppCompatActivity implements HomeAdapter.IHome
             }
         });
 
-        findViewById(R.id.search).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.places).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openSearch();
+                openPlaces();
             }
         });
 //        findViewById(R.id.buttonAngkot).setOnClickListener(new View.OnClickListener() {
@@ -68,15 +68,19 @@ public class MainActivity extends AppCompatActivity implements HomeAdapter.IHome
 //
     }
 
-    private void openSearch() {
-
+    private void openPlaces() {
+        Intent intent = new Intent(MainActivity.this, List.class);
+        startActivity(intent);
     }
 
     private void openAbout() {
-
+        Intent intent = new Intent(MainActivity.this, aboutfix.class);
+        startActivity(intent);
     }
 
     private void openVacation() {
+        Intent intent = new Intent(MainActivity.this, ListWisataActivity.class);
+        startActivity(intent);
 
     }
 
