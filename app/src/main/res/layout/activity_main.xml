@@ -18,6 +18,9 @@
             android:layout_height="200dp"
             android:layout_marginTop="0dp"
             android:autoStart="true"
+            android:animateFirstView="true"
+            android:inAnimation="@anim/slide_in_right"
+            android:outAnimation="@anim/slide_out_left"
             android:flipInterval="4000">
 
             <ImageView

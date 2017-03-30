@@ -27,7 +27,10 @@
         <activity android:name=".List" />
         <activity android:name=".ListWisataActivity" />
         <activity android:name=".ListFoodActivity" />
-        <activity android:name=".about"></activity>
+        <activity
+            android:name=".aboutfix"
+            android:label="@string/title_activity_aboutfix"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

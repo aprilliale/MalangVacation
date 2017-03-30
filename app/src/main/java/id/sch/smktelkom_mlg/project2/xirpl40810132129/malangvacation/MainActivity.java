@@ -69,21 +69,25 @@ public class MainActivity extends AppCompatActivity implements HomeAdapter.IHome
     }
 
     private void openSearch() {
-
+        //intent diatas ini
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     private void openAbout() {
-        Intent intent = new Intent(MainActivity.this, ListFoodActivity.class);
+        Intent intent = new Intent(MainActivity.this, aboutfix.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     private void openVacation() {
-
+        //intent diatas ini
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     private void openFood() {
         Intent intent = new Intent(MainActivity.this, ListFoodActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     @Override
