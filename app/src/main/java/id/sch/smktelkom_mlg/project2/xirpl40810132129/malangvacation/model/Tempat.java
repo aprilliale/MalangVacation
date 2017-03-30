@@ -11,9 +11,11 @@ public class Tempat implements Serializable {
     public String deskripsi;
     public String foto;
 
+
     public Tempat(String judul, String deskripsi, String foto) {
         this.judul = judul;
         this.deskripsi = deskripsi;
+
         this.foto = foto;
     }
 }

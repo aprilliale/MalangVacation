@@ -24,6 +24,6 @@ public class DetailWisataActivity extends AppCompatActivity {
         TextView tvDeskripsi = (TextView) findViewById(R.id.deskripsiwisata);
         tvDeskripsi.setText(wisata.deskripsi);
         TextView tvDetail = (TextView) findViewById(R.id.lokasiwisata);
-        tvDetail.setText(wisata.deskripsi);
+        tvDetail.setText(wisata.detail);
     }
 }

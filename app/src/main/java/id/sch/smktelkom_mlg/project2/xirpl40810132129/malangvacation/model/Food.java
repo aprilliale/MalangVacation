@@ -10,11 +10,13 @@ public class Food implements Serializable {
     public String judul;
     public String deskripsi;
     public String foto;
+    public String detail;
 
 
-    public Food(String judul, String deskripsi, String foto) {
+    public Food(String judul, String deskripsi, String detail, String foto) {
         this.judul = judul;
         this.deskripsi = deskripsi;
+        this.detail = detail;
         this.foto = foto;
     }
 }
