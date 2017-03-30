@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation;
 
 import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -31,7 +32,7 @@ public class List extends AppCompatActivity implements TempatAdapter.ITempatAdap
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
         setTitle("Tempat List");
@@ -123,6 +124,8 @@ public class List extends AppCompatActivity implements TempatAdapter.ITempatAdap
 
     @Override
     public void doClick(int pos) {
-        //Intent intent = new Intent(this, )
+        Intent intent = new Intent(this, DetailTempatActivity.class);
+        intent.putExtra(TEMPAT, mList.get(pos));
+        startActivity(intent);
     }
 }

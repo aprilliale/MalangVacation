@@ -31,6 +31,10 @@
         <activity
             android:name=".DetailFoodActivity"
             android:label="@string/title_activity_detail_food"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailTempatActivity"
+            android:label="@string/title_activity_detail_tempat"
             android:theme="@style/AppTheme"></activity>
     </application>
 
