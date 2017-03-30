@@ -24,8 +24,7 @@ public class DetailTempatActivity extends AppCompatActivity {
         ivFoto.setImageURI(Uri.parse((tempat.foto)));
         TextView tvDeskripsi = (TextView) findViewById(R.id.deskripsitempat);
         tvDeskripsi.setText(tempat.deskripsi);
-        TextView tvDetail = (TextView) findViewById(R.id.lokasitempat);
-        tvDetail.setText(tempat.deskripsi);
+
 
     }
 }

@@ -48,6 +48,7 @@ public class ListWisataActivity extends AppCompatActivity implements WisataAdapt
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.wisata);
         String[] arDeskripsi = resources.getStringArray(R.array.wisata_desc);
+        String[] arDetail = resources.getStringArray(R.array.wisata_detail);
 
         TypedArray a = resources.obtainTypedArray(R.array.gambar_wisata);
         String[] arFoto = new String[a.length()];
@@ -61,7 +62,7 @@ public class ListWisataActivity extends AppCompatActivity implements WisataAdapt
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mListWisata.add(new Wisata(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mListWisata.add(new Wisata(arJudul[i], arDeskripsi[i], arDetail[i], arFoto[i]));
         }
         mWisata.notifyDataSetChanged();
     }
