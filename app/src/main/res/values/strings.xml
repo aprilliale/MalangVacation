@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">MalangVacation2</string>
+    <string name="app_name">Visit Malang</string>
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">WELCOME TO MALANG VACATION</string>
+    <string name="slide_1_title">WELCOME TO VISIT MALANG</string>
     <string name="slide_1_desc">The easiest application to show Malang in specific ways!</string>
 
     <string name="slide_2_title">Movie Tickets</string>
