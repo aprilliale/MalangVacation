@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.DetailFoodActivity"
-    tools:showIn="@layout/activity_detail_food">
+    tools:context="id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation.DetailWisataActivity"
+    tools:showIn="@layout/activity_detail_wisata">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
             android:textColor="?attr/colorAccent" />
 
         <TextView
-            android:id="@+id/deskripsifood"
+            android:id="@+id/deskripsiwisata"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="deskripsi" />
@@ -40,12 +40,11 @@
             android:textColor="?attr/colorAccent" />
 
         <TextView
-            android:id="@+id/lokasifood"
+            android:id="@+id/lokasiwisata"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="lokasi" />
 
     </LinearLayout>
-
 
 </android.support.v4.widget.NestedScrollView>

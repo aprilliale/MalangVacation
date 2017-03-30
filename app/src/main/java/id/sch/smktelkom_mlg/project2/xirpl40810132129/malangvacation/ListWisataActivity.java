@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation;
 
 import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -30,7 +31,7 @@ public class ListWisataActivity extends AppCompatActivity implements WisataAdapt
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_wisata);
         setTitle("Tempat Wisata");
@@ -67,7 +68,7 @@ public class ListWisataActivity extends AppCompatActivity implements WisataAdapt
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        //getMenuInflater().inflate(R.menu.menu_main, menu);
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
 
@@ -122,6 +123,9 @@ public class ListWisataActivity extends AppCompatActivity implements WisataAdapt
 
     @Override
     public void doClick(int pos) {
+        Intent intent = new Intent(this, DetailWisataActivity.class);
+        intent.putExtra(WISATA, mListWisata.get(pos));
+        startActivity(intent);
 
     }
 }

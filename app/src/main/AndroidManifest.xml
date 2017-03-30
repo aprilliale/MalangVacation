@@ -17,18 +17,19 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
-
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity android:name=".List" />
         <activity android:name=".ListWisataActivity" />
         <activity android:name=".ListFoodActivity" />
         <activity android:name=".DetailFoodActivity" />
         <activity android:name=".DetailTempatActivity" />
-        
         <activity
             android:name=".aboutfix"
             android:label="@string/title_activity_aboutfix"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailWisataActivity"
+            android:label="@string/title_activity_detail_wisata"
             android:theme="@style/AppTheme"></activity>
     </application>
 
