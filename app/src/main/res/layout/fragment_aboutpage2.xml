@@ -1,0 +1,63 @@
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="0dp"
+            android:autoStart="true"
+            android:animateFirstView="true"
+            android:inAnimation="@anim/slide_in_right"
+            android:outAnimation="@anim/slide_out_left"
+            android:flipInterval="4000">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/smktelkom" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="0px"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tiga_warna1" />
+
+        </ViewFlipper>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="7dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Profil"
+            android:textStyle="bold"
+            android:textSize="17pt"/>
+
+        <TextView
+            android:layout_width="367dp"
+            android:paddingLeft="9dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Maret, 2017"
+            android:textStyle="italic"
+            android:textSize="9pt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14pt"
+            android:padding="17dp"
+            android:textAlignment="center"
+            android:text="@string/about"/>
+
+
+    </LinearLayout>
+
+
