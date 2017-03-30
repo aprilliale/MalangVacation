@@ -32,8 +32,6 @@
         <item>Balekambang</item>
         <item>Pantai Goa China</item>
         <item>Pantai Segara Anakan</item>
-        <item>Pantai Sendan Biru</item>
-        <item>Pantai Tiga Warna</item>
     </string-array>
 
 
@@ -56,21 +54,11 @@
             Pantainya berpasir putih bersih dan sangat halus, layak disandingkan dengan pantai pasir putih di Bali dan Pulau Lombok.
             Tak heran jika pantai ini mendapat predikat pantai terindah di Malang atau surganya wisata pantai di Malang.
         </item>
-        <item>
-            Pantai Sendang Biru adalah salah satu pantai di Malang yang terletak di 30 Km bagian selatan Malang.
-            Sendang biru berada di kecamatan Sumbermanjing Wetan, Kabupaten Malang.
-            Pantai Sendang Biru berpotensi sebagai obyek wisata yang sangat indah yang bisa dikunjungi.
-            Di samping itu, bagi mereka yang ingin menyebrang ke pulau Sempu, pasti harus melewati pantai Sendang Biru terlebih dahulu.
-            Dengan adanya pulau Sempu ini, membuat pantai Sendang Biru memiliki ombak yang tidak terlalu besar layaknya pantai laut selatan lainnya.
-        </item>
-        <item>
-            Apalagi pantai ini merupakan pantai yang sangat terjaga kebersihannya, karena setiap pengunjung yang datang langsung di data oleh petugas penjaga pantai,
-            apa dan berapa jumlah barang yang anda bawa khususnya yang berbau sampah.
-        </item>
+
     </string-array>
     <string name="about">
         <item>
-                 MalangVacation, dibuat oleh Erron Lolha Aprilia, Osa Khoiruzzad, Miftakhul Eza Alfandy, Bernadeth Rosalia CIka A, Arnetta Rahmawati. \n
+                 VISIT MALANG \n\n dibuat oleh Erron Lolha Aprilia, Osa Khoiruzzad, Miftakhul Eza Alfandy, Bernadeth Rosalia Cika A, Arnetta Rahmawati. \n\n
                 Aplikasi ini dibuat untuk masyarakat Indonesia sebagai panduan saat ingin melakukan rekreasi di Malang. Aplikasi
             ini memuat Beberapa tempat seperti pantai, mall, makanan khas dan lain lain.
         </item>
@@ -98,18 +86,7 @@
             Melelahkan, namun terbayar dengan keindahannya.
             Untuk menuju ke sana, Anda harus menyambung perjalanan dengan menyewa kapal. Kalau di Palembang sih disebutnya kapal ketek karena bunyi mesinnya yang berbunyi, “etek..ketek..ketek..”
         </item>
-        <item>
-            Di pantai Sendang Biru ini ini juga dikenal sebagai tempat pendaratan dan pelelang ikan di Malang.
-            Dinamakan pantai Sendang Biru karena di pantai ini terdapat sumber mata air yang biasa disebut sebagai sendang, dan berwarna biru.
-            Saat ini, secara resmi pantai Sendang Biru dikelola oleh perusahaan negara milik Forestay.
-            Di pantai ini terdapat beberapa fasilitas penunjang wisata seperti, penginapan, guess house, rumah jaga dan persewaan perahu.
-            Untuk mencapai pantai ini, para pengunjung bisa menggunakan kendaraan pribadi seperti mobil dan motor, juga kendaraan umum.
-            Untuk kendaraan umum bisa diakses menggunakan Mikrolet jurusan Gadang-Turen-Sendang Biru.
-        </item>
-        <item>
-            Pantai Tiga Warna ini terletak di desa Sumber Manjing Wetan atau lebih akrab disapa dengan Desa Sumawe.
-            Jika anda berjalan dari pusat Kota Malang anda harus menempuh jarak sekitar 73 KM atau setara dengan 2 jam 30 menit perjalanan
-        </item>
+
     </string-array>
 
     <string-array name="belanja">
@@ -169,11 +146,10 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
     </array>
 
     <array name="gambar_wisata">
-        <item>@drawable/balekambang</item>
-        <item>@drawable/goachina</item>
-        <item>@drawable/segara_anakan1</item>
-        <item>@drawable/sendang_biru1</item>
-        <item>@drawable/tiga_warna1</item>
+        <item>@drawable/balekambang2</item>
+        <item>@drawable/goachina2</item>
+        <item>@drawable/segara_anakan2</item>
+
     </array>
 
     <array name="gambar_food">

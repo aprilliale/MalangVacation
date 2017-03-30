@@ -75,7 +75,7 @@
             android:layout_alignParentRight="true"
             android:layout_below="@+id/viewFlipper"
             android:layout_margin="10dp"
-            android:src="@drawable/places" />
+            android:src="@drawable/place" />
         <ImageButton
             android:id="@+id/vacation"
             android:layout_width="175dp"

@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -21,6 +22,13 @@ public class MainActivity extends AppCompatActivity {
         vacation = (ImageButton) findViewById(R.id.vacation);
         food = (ImageButton) findViewById(R.id.food);
         places = (ImageButton) findViewById(R.id.places);
+
+        findViewById(R.id.maps).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openWebPage("https://www.google.co.id/maps/");
+            }
+        });
 
         findViewById(R.id.food).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +73,12 @@ public class MainActivity extends AppCompatActivity {
 //
 //        });
 //
+    }
+
+    private void openWebPage(String url) {
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        if (intent.resolveActivity(getPackageManager()) != null) startActivity(intent);
     }
 
     private void openPlaces() {
