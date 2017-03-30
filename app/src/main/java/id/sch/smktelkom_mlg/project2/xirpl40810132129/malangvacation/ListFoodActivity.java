@@ -49,7 +49,7 @@ public class ListFoodActivity extends AppCompatActivity implements FoodAdapter.I
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.foody);
         String[] arDeskripsi = resources.getStringArray(R.array.foody_desc);
-
+        String[] arDetail = resources.getStringArray(R.array.foody_detail);
         TypedArray a = resources.obtainTypedArray(R.array.gambar_food);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
@@ -62,7 +62,7 @@ public class ListFoodActivity extends AppCompatActivity implements FoodAdapter.I
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mListFood.add(new Food(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mListFood.add(new Food(arJudul[i], arDeskripsi[i], arDetail[i], arFoto[i]));
         }
         mAdapterFood.notifyDataSetChanged();
     }

@@ -26,7 +26,7 @@ public class DetailFoodActivity extends AppCompatActivity {
         TextView tvDeskripsi = (TextView) findViewById(R.id.deskripsifood);
         tvDeskripsi.setText(food.deskripsi);
         TextView tvDetail = (TextView) findViewById(R.id.lokasifood);
-        tvDetail.setText(food.deskripsi);
+        tvDetail.setText(food.detail);
 
     }
 }
