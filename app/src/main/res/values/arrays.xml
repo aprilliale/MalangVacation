@@ -36,6 +36,8 @@
         <item>Pantai Tiga Warna</item>
     </string-array>
 
+
+
     <string-array name="wisata_desc">
         <item>
             Pantai Balekambang berada di Desa Srigoco, Kecamatan Bantur, sekitar 70 kilometer arah selatan Kota Malang, Jawa Timur.
@@ -66,7 +68,13 @@
             apa dan berapa jumlah barang yang anda bawa khususnya yang berbau sampah.
         </item>
     </string-array>
-
+    <string name="about">
+        <item>
+                 MalangVacation, dibuat oleh Erron Lolha Aprilia, Osa Khoiruzzad, Miftakhul Eza Alfandy, Bernadeth Rosalia CIka A, Arnetta Rahmawati. \n
+                Aplikasi ini dibuat untuk masyarakat Indonesia sebagai panduan saat ingin melakukan rekreasi di Malang. Aplikasi
+            ini memuat Beberapa tempat seperti pantai, mall, makanan khas dan lain lain.
+        </item>
+    </string>
     <string-array name="wisata_detail">
         <item>
             Pantai ini dijuluki Tanah Lot-nya Jawa karena mirip dengan objek wisata di Bali yang bernama Tanah Lot. Pantai Balekambang cukup menawan dan layak dikunjungi sebagai tempat liburan akhir pekan di Malang. Suasananya sangat asri, pantainya juga bersih dan terawat.
@@ -125,7 +133,7 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
 
     <string-array name="foody_desc">
         <item>
-            Sempol adalah jajanan khas kota malang,asalnya dari gondang legi,malang selatan.
+            Sempol adalah jajanan khas kota malang. Asalnya dari Gondang Legi, Malang Selatan.
         </item>
         <item>
             Kue berlapis, yang terbuat dari pastry dan di isi berbagai buah-buahan.
@@ -174,12 +182,5 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
         <item>@drawable/cwiemie1</item>
     </array>
 
-    <array name="gambar_home">
-        <item>@drawable/button1</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button5</item>
-    </array>
 
 </resources>

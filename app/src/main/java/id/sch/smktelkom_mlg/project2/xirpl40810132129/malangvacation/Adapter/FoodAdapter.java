@@ -57,6 +57,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
         ImageView ivFoto;
         TextView tvJudul;
         TextView tvDeskripsi;
+        TextView tvDetail;
 
         public ViewHolder(View itemView) {
             super(itemView);

@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation;
 
 import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -112,6 +113,7 @@ public class ListFoodActivity extends AppCompatActivity implements FoodAdapter.I
         mAdapterFood.notifyDataSetChanged();
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
@@ -123,6 +125,9 @@ public class ListFoodActivity extends AppCompatActivity implements FoodAdapter.I
 
     @Override
     public void doClick(int pos) {
-
+        Intent intent = new Intent(this, DetailFoodActivity.class);
+        intent.putExtra(FOOD, mListFood.get(pos));
+        startActivity(intent);
     }
+
 }

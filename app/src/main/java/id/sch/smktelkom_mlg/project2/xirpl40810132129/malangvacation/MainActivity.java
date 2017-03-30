@@ -72,8 +72,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openAbout() {
-        Intent intent = new Intent(MainActivity.this, ListFoodActivity.class);
-        startActivity(intent);
+
     }
 
     private void openVacation() {

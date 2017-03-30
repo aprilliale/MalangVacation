@@ -27,8 +27,7 @@
         <activity android:name=".List" />
         <activity android:name=".ListWisataActivity" />
         <activity android:name=".ListFoodActivity" />
-        <activity android:name=".about" />
-        <activity android:name=".cari"></activity>
+        <activity android:name=".about"></activity>
     </application>
 
 </manifest>
