@@ -8,14 +8,14 @@
     <string name="slide_1_title">WELCOME TO VISIT MALANG</string>
     <string name="slide_1_desc">The easiest application to show Malang in specific ways!</string>
 
-    <string name="slide_2_title">Movie Tickets</string>
-    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_2_title">Malang Foodies</string>
+    <string name="slide_2_desc">Find your favourite food in Malang! </string>
 
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="slide_3_title">Malang Vacation</string>
+    <string name="slide_3_desc">Find your new exeperience with trip in MMalang!</string>
 
-    <string name="slide_4_title">World Travel</string>
-    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="slide_4_title">Malang Glossy and Glamour </string>
+    <string name="slide_4_desc">Find what is shine and glamour in this town! </string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
