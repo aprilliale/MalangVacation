@@ -17,6 +17,7 @@ public class DetailWisataActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail_wisata);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         Wisata wisata = (Wisata) getIntent().getSerializableExtra(ListWisataActivity.WISATA);
         setTitle(wisata.judul);
         ImageView ivFoto = (ImageView) findViewById(R.id.imageFotoWisata);
