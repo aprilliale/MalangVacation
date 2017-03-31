@@ -75,13 +75,14 @@ public class aboutfix extends AppCompatActivity {
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(R.anim.slide_in_left_fast, R.anim.slide_out_right_fast);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     @Override
     public void onBackPressed() {
         finish();
     }
+
 
     /**
      * A placeholder fragment containing a simple view.
@@ -157,4 +158,6 @@ public class aboutfix extends AppCompatActivity {
             return null;
         }
     }
+
+
 }

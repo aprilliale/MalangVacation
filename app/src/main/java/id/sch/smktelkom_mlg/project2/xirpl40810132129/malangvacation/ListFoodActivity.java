@@ -147,7 +147,7 @@ public class ListFoodActivity extends AppCompatActivity implements FoodAdapter.I
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(R.anim.slide_in_right_fast, R.anim.slide_out_left_fast);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     @Override
