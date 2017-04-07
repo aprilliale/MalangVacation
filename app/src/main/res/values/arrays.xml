@@ -14,12 +14,6 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string-array name="foody">
-        <item>Sempol</item>
-        <item>Strudel</item>
-        <item>Cwie Mie</item>
-    </string-array>
-
     <string-array name="homee">
         <item>Maps</item>
         <item>Mall</item>
@@ -28,13 +22,46 @@
         <item>About</item>
     </string-array>
 
+    <!-- Vacation -->
     <string-array name="wisata">
-        <item>Balekambang</item>
+        <item>Pantai Balekambang</item>
         <item>Pantai Goa China</item>
         <item>Pantai Segara Anakan</item>
+        <item>Pantai Tiga Warna</item>
+        <item>Pantai Sendang Biru</item>
+        <item>Pantai bajulmati</item>
+        <item>Pantai jembatan panjang</item>
+        <item>Pantai Kondang Merak</item>
+        <item>Pantai Sendiki</item>
+        <item>Pantai Ngeliyep</item>
+        <item>Gunung Panderman</item>
+        <item>Gunung Arjuno</item>
+        <item>Gunung Welirang</item>
+        <item>Gunung Semeru</item>
+        <item>Campground Bedengan</item>
+        <item>Campground Latar Ombo</item>
+        <item>Campground Coban Rais</item>
     </string-array>
 
-
+    <array name="gambar_wisata">
+        <item>@drawable/balekambang2</item>
+        <item>@drawable/goachina2</item>
+        <item>@drawable/segara_anakan2</item>
+        <item>@drawable/tiga_warna1</item>
+        <item>@drawable/sendang_biru1</item>
+        <item>@drawable/bajulmati</item>
+        <item>@drawable/jembatan_panjang</item>
+        <item>@drawable/kondang_merak</item>
+        <item>@drawable/sendiki</item>
+        <item>@drawable/ngeliyep</item>
+        <item>@drawable/panderman</item>
+        <item>@drawable/arjuno</item>
+        <item>@drawable/welirang</item>
+        <item>@drawable/semeru</item>
+        <item>@drawable/bedengan</item>
+        <item>@drawable/latarombo</item>
+        <item>@drawable/cobanrais</item>
+    </array>
 
     <string-array name="wisata_desc">
         <item>
@@ -55,14 +82,72 @@
             Tak heran jika pantai ini mendapat predikat pantai terindah di Malang atau surganya wisata pantai di Malang.
         </item>
 
-    </string-array>
-    <string name="about">
         <item>
-                 VISIT MALANG \n\n dibuat oleh Erron Lolha Aprilia, Osa Khoiruzzad, Miftakhul Eza Alfandy, Bernadeth Rosalia Cika A, Arnetta Rahmawati. \n\n
-                Aplikasi ini dibuat untuk masyarakat Indonesia sebagai panduan saat ingin melakukan rekreasi di Malang. Aplikasi
-            ini memuat Beberapa tempat seperti pantai, mall, makanan khas dan lain lain.
+            Pantai Tiga Warna ini juga biasa disebut sebagai Raja Ampatnya Malang, sebab Pantai Tiga Warna ini memang memiliki karakteristik sangat mirip dengan Raja Ampat yang ada di Papua.
         </item>
-    </string>
+
+        <item>
+            Pantai Sendang Biru adalah satu lagi pantai yang terletak di Kabupaten Malang. Tepatnya di 30 Km bagian selatan Malang, Sendang biru berada di kecamatan Sumbermanjing Wetan.
+        </item>
+
+        <item>
+            Pantai Bajul Mati Malang ini berada di Desa Bajulmati, Gajah Rejo, Gedangan, Kabupaten Malang. Lokasi pantai Bajul Mati ini berjarak sekitar 58 km dari pusat kota Malang atau hanya
+            10 menit perjalanan menggunakan kendaraan bermotor dari Pantai Goa Cina.
+        </item>
+
+        <item>
+            Jika Anda sudah pernah berkunjung ke Pantai Balekambang maka anda juga sudah barang tentu jika anda akan melihat Pantai Jembatan Panjang, hal ini dikarenakan letak Pantai Jembatan
+            Pajang ini yang memang bersebelahan dengan Pantai Balekambang, lebih tepatnya berada di bagian barat Pantai Balekambang.
+        </item>
+
+        <item>
+            Pantai Kondang Merak ini mempunyak panorama alam yang begitu menggoda dengan pemandangan garis pantainya yang lumayan panjang, yakni sekitar 800 meter yang akan membuat anda puas dalam menjelajahi
+            keindahan pantai indah di kabupaten malang ini.
+        </item>
+
+        <item>
+            Pantai Sendiki merupakan salah satu pantai di Malang yang memiliki keindahan super menakjubkan, dan masih tersembunyi. Pantai ini terletak di Desa Tambakrejo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang.
+            Berjarak sekitar 2 KM dari Pantai Tamban, dengan jalan setapak melalui lahan pertanian dan hutan. Menjadikan pantai ini menjadi pantai tersembunyi, dan masih jarang disinggahi oleh wisatawan.
+            Kini pantai yang berada di Kabupaten Malang ini sudah perlahan mulai populer, dikalangan wisatawan lokal.
+        </item>
+
+        <item>
+            Pantai Ngliyep salah satu destinasi wisata yang sudah lama di Malang. Namun jarak yang cukup jauh sehingga pantai ini jarang untuk dikunjungi, sehingga kealamian Pantai Ngliyep sangat terjaga dari sampah pengunjung,
+            dan wisatawan memilih tempat wisata yang lebih dekat dengan akses jalur yang lebih bagus.
+        </item>
+
+        <item>
+            Kota Batu, yang merupakan bagian dari Malang Raya, punya kawasan pegunungan yang sangat indah. Itulah sebabnya kota ini banyak disukai para wisatawan. Salah satu gunung yang berdiri dengan sangat cantik di sana adalah Gunung Panderman.
+            Gunung ini memiliki tinggi 2.045 mdpl. Puncaknya dikenal dengan nama Puncak Basundara. Dengan tinggi yang “hanya” 2.045 mdpl, gunung ini cenderung lebih cocok untuk pendaki pemula. Track pendakian gunung ini juga tidak terlalu sulit
+        </item>
+
+        <item>
+            Gunung Arjuno merupakan gunung yang berada di berada perbatasan wilayah Kota Batu, Kabupaten Malang, Kabupaten Pasuruan, dan Kabupaten Mojokerto. Gunung yang memiliki tinggi 3.339 mdpl ini merupakan gunung tertinggi ketiga di Jawa Timur setelah Semeru dan Raung.
+            Gunung ini bisa didaki melalui beberapa jalur pendakian. Dari Malang, pendakian gunung ini bisa dilakukan via Lawang. Lokasi gunung ini sendiri berada di arah barat laut Kabupaten Malang
+        </item>
+
+        <item>
+            Gunung Welirang merupakan gunung yang berada satu kompleks dengan Gunung Arjuno sehingga jalur pendakian yang digunakan juga masih sama
+        </item>
+
+        <item>
+            Gunung Semeru, nama gunung ini sudah tidak asing lagi di telinga para pendaki, banyak dari mereka memiliki impian untuk mendaki Gunung Semeru.
+        </item>
+
+        <item>
+            Wisata alam Bedengan ini terletak di Dusun Selokerto, Desa Selorejo, Kecamatan Dau, Kabupaten Malang. Awalnya, tempat ini bukanlah sebuah destinasi wisata yang bisa dikunjungi
+        </item>
+
+        <item>
+            Latar Ombo Gunung Panderman merupakan lokasi yang tepat untuk mendirikan tenda. Berada di ketinggian yang relatif rendah.
+        </item>
+
+        <item>
+             Air Terjun Coban Rais terletak di desa Oro-oro Ombo, Kota Batu, Jawa Timur. Sekitar 25 km dari kota Malang atau 100 km dari kota Surabaya. Jalur menuju area lokasi wisata Air Terjun Coban Rais cukup mudah dijangkau, sepanjang jalan sudah diaspal bagus.
+            Jika menggunakan moda transportasi kendaraan roda dua atau roda empat, dapat langsung sampai ke areal parkir lokasi wisata.
+        </item>
+    </string-array>
+
     <string-array name="wisata_detail">
         <item>
             Pantai ini dijuluki Tanah Lot-nya Jawa karena mirip dengan objek wisata di Bali yang bernama Tanah Lot. Pantai Balekambang cukup menawan dan layak dikunjungi sebagai tempat liburan akhir pekan di Malang. Suasananya sangat asri, pantainya juga bersih dan terawat.
@@ -87,13 +172,113 @@
             Untuk menuju ke sana, Anda harus menyambung perjalanan dengan menyewa kapal. Kalau di Palembang sih disebutnya kapal ketek karena bunyi mesinnya yang berbunyi, “etek..ketek..ketek..”
         </item>
 
+        <item>
+            Di pantai ini kelestarian alamnya djuga masih terjaga, hal ini tampak hamparan hutan konservasi bagi sejumlah tanaman mangrove yang sekarang sudah langka.
+            Mengingat area Pantai Tiga Warna ini merupakan kawasan konservasi maka demi menjaga kelestarian pantai ini, maka hanya 100 pengunjung.
+            Sebenarnya banyak sekali pantai yang terdapat di Malang yang memiliki pemandangan alam yang indah dan menawan,  per hari yang diperbolehkan untuk menikmati indahnya Pantai Tiga Warna ini.
+        </item>
+
+        <item>
+            Pantai Sendang Biru berpotensi sebagai obyek wisata yang sangat indah yang bisa dikunjungi. Di samping itu, bagi mereka yang ingin menyebrang ke pulau Sempu,
+            pasti harus melewati pantai Sendang Biru terlebih dahulu. Dengan adanya pulau Sempu ini, membuat pantai Sendang Biru memiliki ombak yang tidak terlalu besar layaknya pantai laut selatan lainnya.
+        </item>
+
+        <item>
+            Kelebihan dari Pantai Bajul Mati adalah keberadaan teluk yang sangat memukau mata. Tidak hanya itu, sebab Pantai Bajul Mati ini juga menawarkan sajian keindahan gugusan bukit yang terletak di seberang pantai.
+            Tidak hanya banyak dijadikan sebagai objek wisata, pantai Bajul Mati ini juga merupakan tempat untuk melakukan kegiatan berkemah.
+        </item>
+
+        <item>
+            Kondisi sekitar pantai Jembatan Pajang ini sangat asri, sebab disekitar kawasan pantai Jembatan Pajang ini dikelilingi berbagai macam pepohonan yang membuat indah pemandangan pantai ini. Ciri khas dari pantai
+            ini adalah keberadaan jembatan tua yang panjang dan sudah putus.
+        </item>
+
+        <item>
+            Pantai Kondang Merak ini mempunyai pemandangan alam pantai yang sangat indah. Bagaimana tidak, sebab saat anda pertama kali tiba di Pantai Kondang Merak ini maka keberadaan pasir pantainya yang putih bersih
+            serta keberadaan pohon-pohon yang tumbuh berbaris di bagian tepu pantai yang akan membuat anda terpukau dan merasa nyaman dengan suasana di Pantai Kondang Merak ini.
+            Pantai Kondang Merak ini memiliki kondisi yang sedikit berlumut serta banyak terdapat terumbu karang, spons, hingga kerang dan biota laut lainnya yang hidup di habitat sekitar pantai Kondang Merak ini.
+        </item>
+
+        <item>
+            Pantai yang terdiri dari pasir putih dan pantai berbatu ini memiliki panorama yang sangat menakjubkan, ya meskipun tidak sepopuler pantai-pantai tetangganya yaitu Pantai Balekambang dan Pantai Sendang Biru.
+            Karena masih jarang dikunjungi, kebersihan di pantai ini masih terjaga. Terbukti dengan tidak ditemukannya sampah di area sekitar, bahkan ombaknyatidak tersapu oleh jejak kaki wisatawan. Selain panorama dan kebersihan,
+            daya tarik lainnya terletak pada terdapatnya beberapa bagian pantai terlihat memiiki pasir besi dan muara yang memiliki air jernih.
+            pantai sendiki malang
+        </item>
+
+        <item>
+            Pantai Ngliyep memiliki  luas arael kurang lebih 10 Ha yang terdiri dari hutan lindung, lahan parkir, dan areal wisata. Pada tahun 1980-an tempat wisata ini merupakan tujuan wisata favorit di Jawa Timur,
+            bahkan pantai ini lebih dahulu terkenal dari pada Pantai Balekambang atau Pantai Sendang Biru. Pantai ini memiliki panorama alam yang sangat cantik, memiliki hamparan pasir putih yang lembut dan area bermain yang luas.
+            Dengan pepohonan yang rindang dan hijau sangat membantu untuk berteduh dari panasnya matahari, gelombang ombak yang cukup menarik unuk di pandang, dan suasana yang sangat menyegarkan pikiran.
+            Tebing-tebing yang curam dan hutan lindung yang dikelilingi Pantai Ngliyep memperlihatkan kenaturalan pantai ini. Dan membuat pantai ini menjadi salah satu tempat yang patut direkomendasikan untuk liburan anda,
+            pantai ini memiliki tebing yang besar sehingga saat sore hari akan terlihat sangat eksotis dengan matahari terbenamnya.
+        </item>
+
+        <item>
+            Sementara para pendaki pemula menjadikan gunung ini sebagai tujuan pendakian mereka yang pertama, para pendaki senior bisa menjadikan gunung ini sebagai tempat pelampiasan jika rasa rindu terhadap suasana pendakian sudah tak tertahankan.
+            Untuk kamu yang tinggal di Malang dan sekitarnya dan membutuhkan suasana yang fresh untuk menyegarkan pikiran dari beban pekerjaan, Gunung Panderman juga merupakan pilihan yang cocok. Ada dua jalur pendakian yang umum digunakan
+            oleh para pendaki yakni Curah Banteng serta Toyomerto. Jalur Toyomerto memiliki medan yang cenderung lebih mudah dan santai sedangkan Curah Banteng memiliki medan yang cukup tricky dan kurang cocok untuk pemula
+        </item>
+
+        <item>
+            Melakukan pendakian Gunung Arjuno via Lawang kita akan melewati 4 pos pendakian dengan masing-masing berjarak rata-rata 1,5 jam. Yang paling menyenangkan dari pendakian Gunung Arjuno via Lawang adalah adanya stasiun kereta yang berada di sana (Stasiun Lawang).
+            Saat siang biasanya masih ada angkutan umum yang akan membawa kita sampai ke dekat base camp. Base camp pendakian Lawang sendiri berada di Desa Wonorejo yang merupakan area perkebunan teh
+        </item>
+
+        <item>
+            Bedanya dengan Gunung Arjuno, Gunung Welirang masih aktif dan di puncaknya terdapat kawah yang mengandung belerang. Gunung Welirang ini juga sekaligus merupakan tempat mengais rejeki para penambang belerang tradisional yang tinggal di sekitar sana.
+            Gunung Welirang memiliki tinggi 3.156 mdpl. Penambang belerang di Gunung Welirang biasanya melakukan pendakian melalui jalur Tretes yang berada di Pasuruan
+        </item>
+
+        <item>
+            Ranu Kumbolo yang disebut-sebut sebagai surganya Gunung Semeru membuat siapapun tergoda untuk datang kesana. Terlebih Semeru dengan puncaknya yaitu Mahameru (3676 mdpl) mendapat predikat sebagai gunung tertinggi di tanah Jawa.
+            Jalur resmi untuk mendaki Semeru hanya ada satu, yaitu via Ranu Pani. Untuk menuju kesana jika start dari Stasiun Kota Baru Malang. Pertama naik angkot ke Terminal Arjosari, lalu lanjut menuju Pasar Tumpang juga dengan angkot. Dari Pasar Tumpang carter angkot ke Rest Area,
+            dan terakhir dengan menyewa Jeep untuk menuju Ranu Pani.
+        </item>
+
+        <item>
+            PT Pertamina mengolah kawasan ini sebagai tempat untuk pembibitan tanaman atau pohon. Baru pada tahun 2007, kawasan ini dibuka sebagai wahana wisata bagi para pecinta alam. Banyak yang menjadikan Bedengan sebagai spot untuk mendirikan tenda. Apalagi Bedengan ini terletak di dataran tinggi,
+            makanya banyak traveler yang suka berkemah di sini. Wong sejuk dan tenang suasananya kok.
+        </item>
+
+        <item>
+            Latar Ombo sangat rekomen untuk kamu kunjungi. Lokasi yang nggak jauh dari sumber mata air pun melengkapi perkemahanmu di tengah hutan ini.
+        </item>
+
+        <item>
+            Bagi yang belum pernah kesini, Stasiun Televisi Batu TV bisa menjadi patokan, karena lokasi wisata ini tepat berada disampingnya. Sedangkan bagi pengguna kendaraan umum, terutama dari Kota Malang dapat memanfaatkan angkutan kota yang menuju ke terminal Landungsari,
+            kemudian berganti angkot menuju kota batu yang melalui BNS (Batu Night Spectacular), turun di pertigaan BNS. Dari sini masih sekitar 4 km lagi, transpotasi yang tersedia bisa memanfaatkan jasa ojek yang mangkal dipertigaan.
+        </item>
     </string-array>
+
+    <!-- Place-->
+    <array name="gambar_tempat">
+        <item>@drawable/matos</item>
+        <item>@drawable/mog</item>
+        <item>@drawable/pasarbesar</item>
+        <item>@drawable/jatimpark1</item>
+        <item>@drawable/jatimpark2</item>
+        <item>@drawable/kusuma_agro_wisata</item>
+        <item>@drawable/selecta</item>
+        <item>@drawable/bns</item>
+        <item>@drawable/alun_batu</item>
+        <item>@drawable/sengkaling</item>
+    </array>
+
 
     <string-array name="belanja">
         <item>Malang Town Square</item>
         <item>Malang Olympic Garden</item>
         <item>Pasar Besar</item>
+        <item>Jatim Park I</item>
+        <item>Jatim Park II</item>
+        <item>Kusuma Agro WIsata</item>
+        <item>Selecta</item>
+        <item>Batu Night Spectacular</item>
+        <item>Alun-ALun Batu</item>>
+        <item>Sengkaling</item>
     </string-array>
+
 
     <string-array name="belanja_des">
         <item>
@@ -104,20 +289,139 @@
         </item>
         <item>
             Jika anda ingin membeli barang untuk memenuhi kebutuhan bahan anda, maka sebaiknya anda datang ke tempat yang satu ini. Pasar ini menjual 
-berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralatan dapur dan lain sebagainya. Walaupun harga yang ditawarkan cukup mahal, namun anda bisa menawarnya dengan harga yang murah. Pasar ini juga menyediakan tempat makan yang dijamin akan membuat anda puas.
+            berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralatan dapur dan lain sebagainya. Walaupun harga yang ditawarkan cukup mahal, namun anda bisa menawarnya dengan harga yang murah. Pasar ini juga menyediakan tempat makan yang dijamin akan membuat anda puas.
         </item>
+
+        <item>
+            Jatim Park 1 atau Jawa Timur Park adalah obyek wisata yang merupakan taman bermain outdoor dilengkapi berbagai wahana yang mengasyikkan untuk dicoba. Selain menyediakan aneka permainan, pada beberapa wahana pengunjung juga akan mendapatkan pengalaman berwisata dengan nuansa edukatif. Selain itu, bila telah lelah berkeliling dan mencoba berbagai wahana,
+            Anda bisa beristirahat di café dan restoran yang tersedia di lokasi tersebut sekaligus berwisata kuliner.
+        </item>
+
+        <item>
+            Masih terletak di lokasi yang berdekatan, Jatim Park 2 juga dikenal sebagai Batu Secret Zoo dan Museum Satwa. Atraksi utama di tempat wisata Malang ini tentu adalah menyaksikan beragam hewan dari dalam hingga luar negeri. Selain itu Anda juga dapat mengamati berbagai hewan yang telah diawetkan di Museum Satwa sekaligus mempelajari karakter satwa-satwa pada stasiun pengetahuan.
+            Di dekat obyek wisata tersebut telah dibangun hotel yang disebut Pohon Inn bagi Anda yang ingin mendapatkan pengalaman seru menginap di bangunan berbentuk pohon yang dikelilingi pemandangan pegunungan yang indah.
+        </item>
+
+        <item>
+            Sebagai kota apel, Malang tentu memiliki banyak perkebunan apel. Di obyek wisata Kusuma Agrowisata pengunjung diperbolehkan untuk memetik sendiri berbagai jenis buah apel dan membelinya. Tentu saja memanen buah apel ini akan menjadi pengalaman yang sangat berharga dan dapat menambah pengetahuan terutama bagi putra-putri Anda.
+            Fasilitas lain di obyek wisata ini adalah mengajarkan para pengunjung cara bercocok tanam dengan baik. Lokasi ini tentu cocok bagi siswa-siswi yang mengadakan studytour.
+        </item>
+
+        <item>
+             Di taman rekreasi yang satu ini Anda bisa berjalan-jalan di taman bunga yang indah dan berfoto. Bagi buah hati Anda juga tersedia beragam wahana permainan seperti Kolam Renang Sejarah, Perahu Columbus, Water Park, dan Arena Pacuan Kuda. Selain itu, lokasi wisata ini juga dilengkapi dengan sejumlah restoran dan café sebagai tempat bersantai sekaligus hotel untuk menginap Anda dan keluarga.
+        </item>
+
+
+        <item>
+            Tempat wisata di Malang ini sebenarnya tak jauh berbeda dengan taman-taman bermain lain yang menyediakan berbagai wahana, tetapi yang unik dari BNS adalah dibuka mulai sore hingga malam hari. Di sini Anda dapat mencoba berbagai wahana yang menantang adrenalin seperti jet coster, rumah miring, rumah hantu dan lain sebagainya pada malam hari. Wahana taman lampion merupakan arena yang banyak
+            difavoritkan karena pengunjung bisa berfoto di lokasi yang pemandangannya menakjubkan ini.
+        </item>
+
+        <item>
+            Dari nama obyek wisata ini tentu Anda sudah dapat menebak bahwa lokasinya bukanlah termasuk wilayah Malang. Meskipun demikian masyarakat Malang juga sering menghabiskan waktu akhir pekan di obyek wisata yang sekaligus menjadi sarana edukasi dan olahraga. Di sini pengunjung tak dipungut biaya masuk, tetapi Anda harus membayar tiket bila ingin naik bianglala.
+            Di malam hari Anda bisa menikmati wisata kuliner di sekitar lokasi yang menyediakan banyak kuliner khas wilayah di sekitar Batu dan Malang.
+        </item>
+
+        <item>
+            Salah satu tempat wisata Malang yang banyak menjadi favorit bagi anak-anak adalah Taman Rekreasi Sengkaling Malang yang memiliki berbagai wahana dan kolam renang dengan beragam peruntukan. Lokasinya yang tak terlalu jauh dari pusat kota Malang membuat tempat ini ramai dikunjungi terutama di akhir pekan
+        </item>
+
+
     </string-array>
+
+
+    <!-- Food-->
+    <string-array name="foody">
+        <item>Sempol</item>
+        <item>Strudel</item>
+        <item>Cwie Mie</item>
+        <item>Orem Orem</item>
+        <item>Bakso Bakar</item>
+        <item>Rawon</item>
+        <item>Sego Goreng Mawut</item>
+        <item>Bakso Malang</item>
+        <item>Tahu Campur</item>
+        <item>Mendol</item>
+        <item>Angsle Malang</item>
+        <item>Es Durian Dempo</item>>
+    </string-array>
+    <array name="gambar_food">
+        <item>@drawable/sempol1</item>
+        <item>@drawable/strudel1</item>
+        <item>@drawable/cwiemie1</item>
+        <item>@drawable/orem2</item>>
+        <item>@drawable/baksobakar</item>
+        <item>@drawable/rawon</item>
+        <item>@drawable/sego_goreng</item>
+        <item>@drawable/bakso_malang</item>
+        <item>@drawable/tahu_campur</item>
+        <item>@drawable/mendol</item>
+        <item>@drawable/angsle</item>
+        <item>@drawable/esdurian</item>
+
+    </array>
 
     <string-array name="foody_desc">
         <item>
             Sempol adalah jajanan khas kota malang. Asalnya dari Gondang Legi, Malang Selatan.
         </item>
+
+
         <item>
             Kue berlapis, yang terbuat dari pastry dan di isi berbagai buah-buahan.
             Kue ini adalah makanan populer di jaman Hasburg Empire (1278 – 1780) di Austria
         </item>
+
+
         <item>
             Mie ayam asal kota Malang Jawa Timur.
+        </item>
+
+
+        <item>
+            Orem-orem adalah masakan kuliner Jawa dari Kota Malang yang berbahan dasar irisan tempe goreng, ayam, dan dimasak bersama kuah santan kental. Penyajiannya adalah dengan ketupat iris yang diberi tauge, tempe dan disiram kuah sayur kuah santan.
+            Rasa kuah orem-orem mirip seperti sayur lodeh dengan rasa sedikit pedas, dan bisa ditambah kecap manis dan sambal sesuai selera. Masakan ini adalah khas dari Kota Malang, Jawa Timur.
+        </item>
+
+
+        <item>
+            Sudah ditusuk, dibakar pula?
+        </item>
+
+
+        <item>
+            Rawon adalah makanan tradisional dari Jawa Timur berupa sup daging dengan kuah yang berwarna hitam. Warna hitam dari kuah Rawon ini terbuat dari kluwak dan dimasak dengan bumbu khusus sehingga menghasilkan aroma dan rasa yang khas sehingga sangat menggugah selera.
+            Rawon ini merupakan salah satu makanan tradisional yang terkenal dan menjadi salah satu icon kuliner di Jawa Timur.
+        </item>
+
+
+        <item>
+            Namanya memang cukup aneh dan sedikit unik. Tapi, siapa yang menyangka kalau Sego Goreng Mawut ini memiliki rasa yang lezat sekali
+        </item>
+
+
+        <item>
+            Bakso atau baso adalah jenis bola daging yang lazim ditemukan pada masakan Indonesia. Bakso umumnya dibuat dari campuran daging sapi giling dan tepung tapioka, akan tetapi ada juga bakso yang terbuat dari daging ayam, ikan, atau udang bahkan daging kerbau
+        </item>>
+
+
+        <item>
+            Tahu campur adalah salah satu makanan khas Jawa Timur. Tahu campur terdiri dari sop daging sapi kenyal, tahu goreng, perkedel singkong, taoge segar, selada air segar, mi kuning, dan kerupuk udang. Semua ini kemudian dicampurkan ke bumbu petis, bawang goreng, dan sambal.
+        </item>
+
+
+        <item>
+            Mendol adalah salah satu makanan khas Jawa Timur (selain rawon dan tempe kacang). Makanan ini terbuat dari bahan dasar tempe kedelai juga. Tempe mendol ini banyak ditemukan di daerah Malang baik untuk lauk maupun dimakan sebagai jajanan.
+        </item>
+
+
+        <item>
+            Angsle atau wedang angsle adalah minuman khas Jawa yang menyerupai kolak. Penjual angsle tradisional dulu berkeliling kampung hanya pada malam hari, karena angsle yang hangat pas disajikan saat malam hari atau saat hujan.
+        </item>
+
+
+        <item>
+            Seperti es buah pada umumnya
         </item>
     </string-array>
 
@@ -128,35 +432,88 @@ berbagai jenis peralatan dan bahan seperti makanan, perhiasan, pakaian, peralata
             Sempol ini dimasak dengan digoreng,sebelum digoreng sempol ini dikukus terlebih dahulu.
             Dan tekstur Sempol ini empuk,garing,crunchy dan dibalut dengan telur.
         </item>
+
+
         <item>
             disebut strudel khas Malang, karena Malang juga terkenal sebagai penghasil apel berkualitas.
             Strudel yg asli Austria inipun dimodifikasi disesuaikan dengan taste lokal melalui chef profesional.
             Hingga jadilah beberapa varian strudel khas Malang yang dijual di gerai pertama Malang Strudel di Jl Ardimulyo no 14 Singosari, Malang ini.
         </item>
+
+
         <item>
             Mi ini disajikan dengan ayam yang dicincang halus dan daun sawi hijau yang biasanya melengkapi mi ini diganti dengan daun selada.
             Jangan lupa untuk menyertakan pangsit sebagai pelengkapnya.
         </item>
+
+
+        <item>
+            Mungkin untuk sebagian orang nama ini tergolong cukup aneh. Orem-orem, makanan yang disajikan dengan ketupat,
+            tempe yang dipotong kecil-kecil dan telur asin diatasnya ini memiliki rasa yang lezat sekali.
+            Memang tampaknya terlihat sepintas seperti opor atau sayur lodeh,
+            tapi makanan ini disajikan dengan kuah kaldu ayam yang sangat kental.
+        </item>
+
+
+        <item>
+            Bakso Bakar ini juga merupakan salah satu makanan khas malang yang selalu diburu oleh para wisatawan.
+            Bakso Bakar ini sama seperti pada bakso yang sering kamu makan sebelumnya, yang membedakan hanyalah bakso ini dilumuri dengan saus,
+            kecap dan bumbu-bumbuan yang membuat rasanya semakin lezat.
+            Jika tengah dibakar, bakso ini akan mengeluarkan aroma yang sudah tercium kelezatannya.
+        </item>
+
+
+        <item>
+            Kalau kuliner yang satu ini tentunya sudah tidak asing lagi di telinga kita. Makanan khas malang yang bernama Rawon ini tentunya bisa kita temui dimana saja,
+            terutama di Jakarta. Sup daging sapi yang disajikan dengan kuah berwarna hitam dan telur asin ini memiliki cita rasa yang sangat unik dan lezat.
+            Kuahnya saja sudah bisa membuat kamu jatuh cinta dengan citarasa alami yang membuat kamu selalu akan kangen dengan makanan khas Malang ini.
+        </item>
+
+
+        <item>
+            Namanya memang cukup aneh dan sedikit unik. Tapi, siapa yang menyangka kalau Sego Goreng Mawut ini memiliki rasa yang lezat sekali. Mungkin buat kamu para pecinta nasi goreng,
+            tentunya sudah pernah merasakan makanan yang satu ini. Mengapa bisa disebut dengan Mawut, karena makanan yang berasal dari nasi goreng dan mie goreng ini dipadukan menjadi satu dengan citarasa yang sangat lezat.
+            Sama seperti pada nasi goreng seperti biasanya, yang disajikan dengan sayur dan acar di atasnya.
+        </item>
+
+
+        <item>
+            Wah Bakso yang satu ini juga tentunya sudah tidak asing lagi. Hampir di setiap sudut Jakarta kamu bisa menemukan Bakso Malang. Tapi jangan salah lho! Kalau kamu mencicipi bakso ini langsung berada di Malang,
+            tentunya sensasi dan rasanya akan sangat berbeda dengan yang pernah kamu cicipi sebelumnya.
+        </item>
+
+
+        <item>
+            Pasti makanan yang satu ini sedikit asing di telinga dan di lidah kamu. Tahu Campur, merupakan makanan khas Malang yang tidak boleh terlewatkan jika sudah berada di kota apel ini.
+            Biasanya makanan ini disajikan dengan beberapa bahan tambahan seperti, sop daging sapi yang lezat, perkedel singkong, taoge segar, selada air, mie kuning dan tidak ketinggalan Tahu yang dicampurkan di dalamnya.
+        </item>
+
+
+        <item>
+            Sekilas terlihat seperti Combro. Tapi ternyata Mendol ini terbuat dari kedelai yang merupakan makanan campuran dari tempe. Makanan ini dicampur dengan berbagai macam bumbu lain, seperti kunyit,
+            bawang merah, bawang putih, dan bumbu lainnya. Lalu makanan ini diaduk menjadi satu bersama tempe dan kemudian dibentuk menyerupai combro. Bentuknya saja sudah membuat kita ingin langsung memakannya ya, bagaimana dengan rasanya? Lezat sekali!
+        </item>
+
+
+        <item>
+            Angsle Malang, memang tampilannya lebih mirip sekoteng karena ada irisan roti, kacang tanah yang disangrai dan kacang hijau di dalamnya. Bedanya Angsle ini masih ditambahkan dengan petulo atau yang biasa kita tahu dengan putu mayang,
+            ditambahkan dengan tape singkong, ketan putih kukus dan bubur mutiara. Sepertinya makanan ini cocok dihidangkan sebagai makanan penutup.
+        </item>
+
+        <item>
+            Pecinta durian, kabar gembira jika mengunjungi Malang. Ternyata tidak hanya apel, tapi Es Durian Dempo ini juga sangat dicari oleh para wisatawan. Sudah pasti bahan dasar dari es ini adalah Durian, tapi tidak hanya itu saja.
+            Es durian ini akan dicampur dengan susu kental manis ditambahkan dengan siru lalu dicampur dengan serutan es batu yang membuat rasanya semakin nikmat.
+        </item>
     </string-array>
 
-    <array name="gambar_tempat">
-        <item>@drawable/matos</item>
-        <item>@drawable/mog</item>
-        <item>@drawable/pasarbesar</item>
-    </array>
-
-    <array name="gambar_wisata">
-        <item>@drawable/balekambang2</item>
-        <item>@drawable/goachina2</item>
-        <item>@drawable/segara_anakan2</item>
-
-    </array>
-
-    <array name="gambar_food">
-        <item>@drawable/sempol1</item>
-        <item>@drawable/strudel1</item>
-        <item>@drawable/cwiemie1</item>
-    </array>
+    <!-- ABOUT -->
+      <string name="about">
+        <item>
+                 VISIT MALANG \n\n dibuat oleh Erron Lolha Aprilia, Osa Khoiruzzad, Miftakhul Eza Alfandy, Bernadeth Rosalia Cika A, Arnetta Rahmawati. \n\n
+                Aplikasi ini dibuat untuk masyarakat Indonesia sebagai panduan saat ingin melakukan rekreasi di Malang. Aplikasi
+            ini memuat Beberapa tempat seperti pantai, mall, makanan khas dan lain lain.
+        </item>
+    </string>
 
 
 </resources>

@@ -124,6 +124,7 @@ public class List extends AppCompatActivity implements TempatAdapter.ITempatAdap
         mAdapter.notifyDataSetChanged();
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
@@ -138,5 +139,19 @@ public class List extends AppCompatActivity implements TempatAdapter.ITempatAdap
         Intent intent = new Intent(this, DetailTempatActivity.class);
         intent.putExtra(TEMPAT, mList.get(pos));
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right_fast, R.anim.slide_out_left_fast);
     }
+
+    //onbackpressed
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
+
 }

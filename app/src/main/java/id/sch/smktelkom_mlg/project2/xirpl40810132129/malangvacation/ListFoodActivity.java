@@ -139,6 +139,20 @@ public class ListFoodActivity extends AppCompatActivity implements FoodAdapter.I
         Intent intent = new Intent(this, DetailFoodActivity.class);
         intent.putExtra(FOOD, mListFood.get(pos));
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_left_fast, R.anim.slide_out_right_fast);
+    }
+
+
+    //onbackpressed
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
     }
 
 }

@@ -43,7 +43,7 @@ public class ListWisataActivity extends AppCompatActivity implements WisataAdapt
         mWisata = new WisataAdapter(this, mListWisata);
         recyclerWisata.setAdapter(mWisata);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.my_toolbarwisata);
         setSupportActionBar(toolbar);
         toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,19 +124,33 @@ public class ListWisataActivity extends AppCompatActivity implements WisataAdapt
         mWisata.notifyDataSetChanged();
     }
 
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        if (item.getItemId() == android.R.id.home) {
-//            onBackPressed();
-//            return true;
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     @Override
     public void doClick(int pos) {
         Intent intent = new Intent(this, DetailWisataActivity.class);
         intent.putExtra(WISATA, mListWisata.get(pos));
         startActivity(intent);
+
     }
+
+    //onbackpressed
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
+
 }

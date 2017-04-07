@@ -1,8 +1,10 @@
 package id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
@@ -79,28 +81,47 @@ public class MainActivity extends AppCompatActivity {
         Uri webpage = Uri.parse(url);
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         if (intent.resolveActivity(getPackageManager()) != null) startActivity(intent);
+
+        overridePendingTransition(R.anim.push_up_in, R.anim.push_down_out);
     }
 
     private void openPlaces() {
         Intent intent = new Intent(MainActivity.this, List.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     private void openAbout() {
         Intent intent = new Intent(MainActivity.this, aboutfix.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     private void openVacation() {
         Intent intent = new Intent(MainActivity.this, ListWisataActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
     }
 
     private void openFood() {
         Intent intent = new Intent(MainActivity.this, ListFoodActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
+    //konfirmasi keluar (alfandy)
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setTitle("Really Exit?")
+                .setMessage("Are you sure you want to exit?")
+                .setNegativeButton(android.R.string.no, null)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        MainActivity.super.onBackPressed();
+                    }
+                }).create().show();
+    }
 }
