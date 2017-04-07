@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project2.xirpl40810132129.malangvacation;
 
+import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -8,6 +9,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -78,11 +80,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openWebPage(String url) {
-        Uri webpage = Uri.parse(url);
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
-        if (intent.resolveActivity(getPackageManager()) != null) startActivity(intent);
-
-        overridePendingTransition(R.anim.push_up_in, R.anim.push_down_out);
+        String uri = "http://maps.google.com/maps?daddr=" + 12f + "," + 2f + " (" + "Where the party is at" + ")";
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+        intent.setPackage("com.google.android.apps.maps");
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException ex) {
+            try {
+                Intent unrestrictedIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                startActivity(unrestrictedIntent);
+            } catch (ActivityNotFoundException innerEx) {
+                Toast.makeText(this, "Please install a maps application", Toast.LENGTH_LONG).show();
+            }
+        }
     }
 
     private void openPlaces() {
