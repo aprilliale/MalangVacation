@@ -29,8 +29,8 @@
         <item>Pantai Segara Anakan</item>
         <item>Pantai Tiga Warna</item>
         <item>Pantai Sendang Biru</item>
-        <item>Pantai bajulmati</item>
-        <item>Pantai jembatan panjang</item>
+        <item>Pantai Bajulmati</item>
+        <item>Pantai Jembatan Panjang</item>
         <item>Pantai Kondang Merak</item>
         <item>Pantai Sendiki</item>
         <item>Pantai Ngeliyep</item>
@@ -272,10 +272,10 @@
         <item>Pasar Besar</item>
         <item>Jatim Park I</item>
         <item>Jatim Park II</item>
-        <item>Kusuma Agro WIsata</item>
+        <item>Kusuma Agro Wisata</item>
         <item>Selecta</item>
         <item>Batu Night Spectacular</item>
-        <item>Alun-ALun Batu</item>>
+        <item>Alun-Alun Batu</item>>
         <item>Sengkaling</item>
     </string-array>
 
@@ -509,7 +509,7 @@
     <!-- ABOUT -->
       <string name="about">
         <item>
-                 VISIT MALANG \n\n dibuat oleh Erron Lolha Aprilia, Osa Khoiruzzad, Miftakhul Eza Alfandy, Bernadeth Rosalia Cika A, Arnetta Rahmawati. \n\n
+                 VISIT MALANG \n\n dibuat oleh Erron Lolha Aprillia, Osa Khoiruzzad, Miftakhul Eza Alfandy, Bernadeth Rosalia Cika A, Arnetta Rahmawati. \n\n
                 Aplikasi ini dibuat untuk masyarakat Indonesia sebagai panduan saat ingin melakukan rekreasi di Malang. Aplikasi
             ini memuat Beberapa tempat seperti pantai, mall, makanan khas dan lain lain.
         </item>
