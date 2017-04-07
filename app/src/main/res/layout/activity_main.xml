@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#212121">
+    android:background="#99ffff">
 
     <RelativeLayout
         android:id="@+id/activity_main"
@@ -66,7 +66,7 @@
             android:layout_height="175dp"
             android:layout_below="@+id/viewFlipper"
             android:layout_margin="10dp"
-            android:src="@drawable/food" />
+            android:src="@drawable/food1" />
         <ImageButton
             android:id="@+id/places"
             android:layout_width="175dp"
@@ -75,7 +75,7 @@
             android:layout_alignParentRight="true"
             android:layout_below="@+id/viewFlipper"
             android:layout_margin="10dp"
-            android:src="@drawable/place" />
+            android:src="@drawable/place1" />
         <ImageButton
             android:id="@+id/vacation"
             android:layout_width="175dp"
@@ -84,7 +84,7 @@
             android:layout_alignRight="@+id/food"
             android:layout_below="@+id/food"
             android:layout_margin="10dp"
-            android:src="@drawable/vacation" />
+            android:src="@drawable/vacation1" />
         <ImageButton
             android:id="@+id/aboutus"
             android:layout_width="175dp"
@@ -93,7 +93,7 @@
             android:layout_alignParentRight="true"
             android:layout_below="@+id/food"
             android:layout_margin="10dp"
-            android:src="@drawable/aboutus" />
+            android:src="@drawable/aboutus1" />
         <ImageButton
             android:id="@+id/maps"
             android:layout_width="match_parent"
@@ -101,6 +101,6 @@
             android:layout_below="@+id/aboutus"
             android:layout_centerHorizontal="true"
             android:layout_margin="10dp"
-            android:src="@drawable/maps" />
+            android:src="@drawable/maps1" />
     </RelativeLayout>
 </ScrollView>
