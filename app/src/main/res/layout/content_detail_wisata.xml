@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"
             tools:text="lokasi" />
 
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
