@@ -5,17 +5,17 @@
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">WELCOME TO VISIT MALANG</string>
+    <string name="slide_1_title">Welcome to Visit Malang!</string>
     <string name="slide_1_desc">The easiest application to show Malang in specific ways!</string>
 
     <string name="slide_2_title">Malang Foodies</string>
     <string name="slide_2_desc">Find your favourite food in Malang! </string>
 
     <string name="slide_3_title">Malang Vacation</string>
-    <string name="slide_3_desc">Find your new exeperience with trip in Malang!</string>
+    <string name="slide_3_desc">Find your new exeperience in Malang!</string>
 
     <string name="slide_4_title">Malang Glossy and Glamour </string>
-    <string name="slide_4_desc">Find what is shine and glamour in this town! </string>
+    <string name="slide_4_desc">Find the shinest place in this town! </string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
